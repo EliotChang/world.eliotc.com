@@ -1,0 +1,217 @@
+{
+ "version": "2026-09-25",
+ "generatedAt": "2026-09-25T00:00:00Z",
+ "cdn": "placeholder/",
+ "places": [
+  {
+   "id": "jp-tokyo",
+   "name": "Tokyo",
+   "country": "Japan",
+   "lat": 35.68,
+   "lng": 139.69,
+   "asOf": "2026-09-25",
+   "video": "jp-tokyo/2026-09-25/montage.mp4",
+   "poster": "jp-tokyo/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for Tokyo."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "Tokyo",
+     "url": "https://en.wikipedia.org/wiki/Tokyo"
+    }
+   ]
+  },
+  {
+   "id": "ng-lagos",
+   "name": "Lagos",
+   "country": "Nigeria",
+   "lat": 6.52,
+   "lng": 3.38,
+   "asOf": "2026-09-25",
+   "video": "ng-lagos/2026-09-25/montage.mp4",
+   "poster": "ng-lagos/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for Lagos."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "Lagos",
+     "url": "https://en.wikipedia.org/wiki/Lagos"
+    }
+   ]
+  },
+  {
+   "id": "br-sao-paulo",
+   "name": "São Paulo",
+   "country": "Brazil",
+   "lat": -23.55,
+   "lng": -46.63,
+   "asOf": "2026-09-25",
+   "video": "br-sao-paulo/2026-09-25/montage.mp4",
+   "poster": "br-sao-paulo/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for São Paulo."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "São Paulo",
+     "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+    }
+   ]
+  },
+  {
+   "id": "is-reykjavik",
+   "name": "Reykjavík",
+   "country": "Iceland",
+   "lat": 64.15,
+   "lng": -21.94,
+   "asOf": "2026-09-25",
+   "video": "is-reykjavik/2026-09-25/montage.mp4",
+   "poster": "is-reykjavik/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for Reykjavík."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "Reykjavík",
+     "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    }
+   ]
+  },
+  {
+   "id": "in-mumbai",
+   "name": "Mumbai",
+   "country": "India",
+   "lat": 19.08,
+   "lng": 72.88,
+   "asOf": "2026-09-25",
+   "video": "in-mumbai/2026-09-25/montage.mp4",
+   "poster": "in-mumbai/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for Mumbai."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "Mumbai",
+     "url": "https://en.wikipedia.org/wiki/Mumbai"
+    }
+   ]
+  },
+  {
+   "id": "us-san-francisco",
+   "name": "San Francisco",
+   "country": "United States",
+   "lat": 37.77,
+   "lng": -122.42,
+   "asOf": "2026-09-25",
+   "video": "us-san-francisco/2026-09-25/montage.mp4",
+   "poster": "us-san-francisco/2026-09-25/poster.jpg",
+   "durationS": 10,
+   "captions": [
+    {
+     "start": 0.0,
+     "end": 3.4,
+     "text": "Placeholder clip for San Francisco."
+    },
+    {
+     "start": 3.4,
+     "end": 6.8,
+     "text": "The real montage replaces this once the pipeline runs."
+    },
+    {
+     "start": 6.8,
+     "end": 10.0,
+     "text": "Captions follow the video clock."
+    }
+   ],
+   "sources": [
+    {
+     "outlet": "Wikipedia",
+     "title": "San Francisco",
+     "url": "https://en.wikipedia.org/wiki/San_Francisco"
+    }
+   ]
+  }
+ ]
+}

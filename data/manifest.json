@@ -1,0 +1,1867 @@
+{
+  "version": "2026-09-25",
+  "generatedAt": "2026-09-25T17:54:07.835Z",
+  "cdn": "https://d3h06xb32ojj4n.cloudfront.net/eliotc/atlas/",
+  "places": [
+    {
+      "id": "ar-buenos-aires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "lat": -34.6,
+      "lng": -58.38,
+      "asOf": "2026-09-25",
+      "video": "ar-buenos-aires/2026-09-25/montage.mp4",
+      "poster": "ar-buenos-aires/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.09,
+          "text": "Buenos Aires, capital of Argentina, stands on the Río de la Plata."
+        },
+        {
+          "start": 5.85,
+          "end": 10.29,
+          "text": "Argentina's poverty rate has risen to thirty-two percent under Milei."
+        },
+        {
+          "start": 10.35,
+          "end": 15.08,
+          "text": "Reuters reports the rate now tests President Milei ahead of elections."
+        },
+        {
+          "start": 15.85,
+          "end": 20.58,
+          "text": "Left-wing groups staged a march of anger against austerity measures."
+        },
+        {
+          "start": 21.35,
+          "end": 27.08,
+          "text": "A document shows the United States funding Argentine mineral and energy projects."
+        },
+        {
+          "start": 27.85,
+          "end": 32.55,
+          "text": "The city's classic bar-cafés remain places to linger like a local."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "France 24",
+          "title": "Argentina's poverty rate climbs to nearly one in three under Milei",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU0UwaXY2SlN0bnBtSFRvZUFKYkVOSzRlNDFyYkxuQkFkRHgwUXQ2YXJQV2djRGxyOTJlcEVKSUlKVUFLeGg5Rm1sMzJDMkRObEpCMXdrYnMweVI2VlZuZ284NDlJU3p4N2dLTUtSaXFSbGhhdmdqS2VNZnZxY0pZSGV0S2k3Z3V6Z3B2TEtOQlh2RW9VaVNwZVNB?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Argentina’s poverty rises to 32 percent under Milei with more pain forecast",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTTdIRVhtbmZHZ3hxa3Y1UXl6OGExeHY3YWVianVoZnVYcjVUWEVGb3I0eE9rRV9yZV96UGdPUTN2c3ZlaURwblJMTS1zWm1BYzcxNmktV0Vaa3VkWGxMQ3lxSWRfbGZWVVQ3VWtrblF6QU1LVHhfdmVnSjQ5S1UzUndGcHk4YmMwc3NEQVNtSWZXdnJhY2VxYXJlWFJMWmotVW0xMG9TVzhla0ZNTXBzWlNyeXROQdIBuwFBVV95cUxQX1BLUUEtS1dmeU5uT1NJMDVpMVNibFlVVFRlSGVhb2drdktuNGhNdFhlNUdTUjBkQXdScXFjb1F2RHZ5aUhvR1lvWXV6aVgwME03VVk5ckY3cW9oTWUyazN5RGVBanZBVGdZdm0teHZGamNDdWRqTHZqcHViTGJCd2tOYXE0cklnRHJRTkprUnUzM2VFWU5IZ3FrSFdmckhGYmF4bmtxT2NzUDZ5YXhBVUN3em9wRThkcVRN?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Linger Like a Local in the Classic Bar-Cafes of Buenos Aires",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY3Y3clE1ZFBsSDA1UUpTcGZhUEktWVFURzU1N2UtWWZNRTlLMTdpbU9ha2lQTUhtTjNFZmFwMUVEbUZiTlMzVG5zYmoyT3Y3VGVtNEx4R3Qxb2lpbmo0aUtKaVVGVGpEOU1Ca1hfV09vT0RfRDl1OTJUMFF6VERpVlJlX3Q4a2c?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "US to fund $7 billion of Argentina mineral, energy projects, document shows",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOemE1ci0wa0RRVFhNckw2TkVQRVMtOEhScmpmbHQwMFFLRlNvUUNBTFd3MnNoaUQ1NEp4SlVWUkgtdF9TZFNjcDhzdU5uMDFWUDdwektSTzd4V1Itc3BXRXl4ZW5NbFJscW9ubEdZdldSQk8xNno0bnRHcXRXcGNqVFc4ZUdiNExLNVNCRXg2cjBjVlUxbWk2aXhrLTB2TmJuWWk1MjhjNEpXYkl0RVM0N3NKajFYczVxQ2c?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Poverty rate tests Argentina's Milei ahead of election",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQU3NPbWZrci1yeGFldXMtZ2hocmpYdXBtbDBOMXl3ckl1dmtJUkR3b2Z5eUxyZnVLX0hvelAzRy1WOTZ3QWFEcmJ1TENmTkhySjdTRlJIX1QyM2RxWEpkNmw3RXBkSkFOUDZ5M1dUdmZ3TU5fbmt2a3Vjc1ZJbTJsbVpSc254QUc5eDdfc3B1RXhjaVA4M0NOSDNCY2dIVWNNSnpv?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Argentina’s Left stages ‘March of Anger’ over Milei’s austerity measures",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbzZobU5sZVRGbzlycTdfVVM0RkxhWGxJLTM4QWEtU0NLZFlTSjMzRy1LWGVsbG1sNENHMHVnM0R1aTdRelhKaGtySzdoclc1Y3Zod1ZES1FxUmkwOXFQcTYwQzZxbmlzYUFlTUk4RVd3OEtqX3JfOUNIUHk3bDlxQnhBdU5RVGZFWmROelRYODFFS2FnUUlLRUg5SmRkVHBCS3E3Y3Fmamx5d1hWRlFzWkpuTllYQmhnNkxj0gHAAUFVX3lxTE9tTW5GMkp0T2hxRmxQTVYyUElEUnZLYVVwS3N3Tml4YTV4Q1FkZXBlZjJWZXhJb054bW4xUjVReFZDcnFrT2c0bWp2VmQ5OXE5UU5yZlVRTS1PTWFRWTJYak05bWxHSFpabkFNLXNfNEFUaWE4bDkwN3NzaWIxMndRR1JtS2pCeGE1ZWhCZHRFV3lLTy1CTS14UmRGc25PVTRlRC1xWE9kR1Via2sxQ0l6ODZaRVhYRjRBNHpYYnkyMQ?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Buenos Aires",
+          "url": "https://en.wikipedia.org/wiki/Buenos_Aires"
+        }
+      ]
+    },
+    {
+      "id": "au-sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "lat": -33.87,
+      "lng": 151.21,
+      "asOf": "2026-09-25",
+      "video": "au-sydney/2026-09-25/montage.mp4",
+      "poster": "au-sydney/2026-09-25/poster.jpg",
+      "durationS": 34.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.88,
+          "text": "Sydney is Australia's largest city, surrounding its harbour in New South Wales."
+        },
+        {
+          "start": 6.85,
+          "end": 11.26,
+          "text": "An eleven-year-old boy shot in Sydney has died from his injuries."
+        },
+        {
+          "start": 11.35,
+          "end": 16.67,
+          "text": "An airline announces eighteen-hour nonstop flights from Sydney to New York."
+        },
+        {
+          "start": 16.85,
+          "end": 21.81,
+          "text": "Coogee again ranks as Sydney's worst ocean beach for faecal pollution."
+        },
+        {
+          "start": 22.35,
+          "end": 26.95,
+          "text": "Australia's jobless rate hits a five-year high, Reuters reports."
+        },
+        {
+          "start": 27.85,
+          "end": 33.32,
+          "text": "Officials say an artificial-intelligence agent hacked an Australian government website."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "The New York Times",
+          "title": "First Nonstop New York-to-Sydney Flights to Take Off in 2028",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGM4Umo2UzNianVHUTktRGctR1BTWUFFSUFGdlVyZEROb3pNMm1aX0wtcjFlVmVMYzRpSkd0a185RkdJZUxYb0E2TzA1a2NlZXlONjIxb1U5cWJ5a3VPblBrY282azYtWUUtN1RwUHl3ekZWSzFBczBHMmJIWjdNdGVsMA?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Coogee ranks as Sydney’s worst ocean beach for faecal pollution – again",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObjJOZjlYT3NSRnh4LTIwS3dOUmc2b0l0YzFFak0ycWdwd1lmcXhPX2VyU3B3MVZjYUtPcDY0SjFIcm53T2ZzbFVWOU12YkI2R2xhNzQxMXZRdEFQM2dpZVdfZjVNMVZFRHFoa1B2cnBsRlc3bHFSVk1CR3NiUUI2ZEMzM3ZuLU95djJaNHBVU3pKdTljSlVJQXFFalYxQm5ScFhOMWFxaWI2Qkp2VTJScm1kek8?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Australia says OpenAI agent hacked government website, checks for more breaches",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOLWZud0ZEMW9uYlUwVlpoRlBIbW82Tjc4Rjl3WW5jcWxVR25wSmZCTXlOdHkwR2VrQzdzZkUwX3lNMXBGUkZMZU1sYS13dzRRb1RMRzFOVjc5RmJIbXFfNy1ob1VZY1ItYS0tQW9XVHNLc3p3UEJwNy1QRWVSYVFjQnh0ellEX2JSZkpSdXlMYVI4UkV2VE05enVnZFJuV3BaS1pVczF5VE9vaTdZOGZyU2tjTk9oVVE5RVBjTnVWNGNUZzVEZDM0?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Qantas announces 18-hour direct flights from Sydney to New York with onboard ‘wellbeing zones’",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOTdyYXVkaV9Udl83NXRNQkVLRkN1NkNVckRLOG9ENjZVdUptRnhVRTVTWGdkSDB1MmxzMHdYTDdDU0dhVEdoTUZTWU5CM2k0NFE4dGxMbURadENtU0R3N3hYS3R0RkJNLUJjNkQ2Nkh3QWFSaTV1YVRTSEptS29nR2NDM1lQOVFnc1dzemNibW9ZRDRueXp4R2F3?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Boy, 11, shot in the face and neck in Sydney dies from his injuries",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaUVOUG9ReEVCR3o0UnVDa0RUUl9IN2NyMXNLSUdNaEdmTFN2Z1RnWGY1dmhIeXJpMHg2ZHVEa1BfbXRwVGxKS3MxbG9RY1M3VnJoLVFjTGtCT2E1N2hteTZBMmJNWkdxOGdSbWFGeXhtcTFzY1VCckVXdTFDMmFxamRsalZDZUItUERFalAtT0dQSGZZd1pTc0Eya3BnalhNTDhHeTNiTm9oR3BCOVRGOUlUOG9PcDl1?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Australia's jobless rate hits five-year high, RBA hike still seen",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRXJYNmlHRWVEVjA1VXJHR0tJaktyYlZGUmJvRWpvSjUwYWdKMHBKY0ZvOW4tSkl5YlNLdGVVcFhMd2d2OUF1YXo3a25hVjh2ckxjX3RqdFA3TXlOR0RPM0djMGtsNTJuZlZTVHowcmZ6MVRoYWlOT3E5VWhkSHVvUWltX2J6R1J6aTl5djFmTlpMMk16VEVwYWRQZEdjLWkwT3ZDdTkxNXhWVmJ2VjRRS1QySGs3U1BiTDNWcmJmYUcyOVk?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Sydney",
+          "url": "https://en.wikipedia.org/wiki/Sydney"
+        }
+      ]
+    },
+    {
+      "id": "br-sao-paulo",
+      "name": "Sao Paulo",
+      "country": "Brazil",
+      "lat": -23.55,
+      "lng": -46.63,
+      "asOf": "2026-09-25",
+      "video": "br-sao-paulo/2026-09-25/montage.mp4",
+      "poster": "br-sao-paulo/2026-09-25/poster.jpg",
+      "durationS": 35.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.98,
+          "text": "São Paulo is Brazil's largest city and Latin America's biggest urban economy."
+        },
+        {
+          "start": 6.85,
+          "end": 12.5,
+          "text": "A Datafolha poll shows Lula holding a thin lead over Flavio Bolsonaro."
+        },
+        {
+          "start": 13.35,
+          "end": 17.76,
+          "text": "Polls also suggest the two men are tied in a possible runoff."
+        },
+        {
+          "start": 17.85,
+          "end": 23.13,
+          "text": "A corruption scandal is reshaping Brazil's presidential election, reporting says."
+        },
+        {
+          "start": 23.35,
+          "end": 28.49,
+          "text": "Brazil has trimmed its growth outlook as monetary easing stays cautious."
+        },
+        {
+          "start": 28.85,
+          "end": 34.6,
+          "text": "In Liberdade, restaurants and shops still mark a century of Japanese settlement."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Brazil trims GDP outlook, sees slower recovery amid cautious monetary easing cycle",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLXlLaUFHODVBZ1c1TzhJWVJnLXNWNFNwSmhrVTdPcnhqRFU2Ym1xTzkzNGYzMlhBX3F3OExOai1PWUpTbnNuMGFTVGRsSVd3Q0dlRmMybmtVNWUtdl9XX0hIbXdRemdxWjZ0ejI2NXQwdmZzaHlmVlFxZndLb3AzZ0F5WHl5TlA3M19oZnV4QWFsU2J2ZW9tMDB6QkhNZw?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Lula holds thin lead over Flavio Bolsonaro ahead of Brazil election, Datafolha poll shows",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdEhVUnA1cS12cVUwZl9oUHN4eldCTURYSm10TmRvUHJQTW53TnFydG9tTHVFWWRSREE3TGlkeVU2MHpmNTNQdWNCcVRUUDk2X2NsTVJtLUtDNDl5OGJITUZrdWxoa1laa1dwUnZrRXkweXlBcHY4UXFldmJRbi1rdFVSMzVGRHpyX1h4Q3Vhc0FuanBFMkZLMWVrZEFuMWtEZDI4cEhxUGU5ZWpka3JwcE01akl2MlJoc2p5U1dscHRBOTRTVnVtMHZ1MA?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "A Corruption Scandal Is Reshaping Brazil’s Presidential Election",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZjF3N1h0a3lfWDZ4R2V6ZGNwZmlfZGdtWW1fQ2tJSzFuT2I0eFVqMy1aUTFkS2drZ0VhX1hJYnBBZUh0WEJGU0xBTGNTOTVyZXNlQ0ZJRzhFOFhKTVk3eFpfbEg3RjBBdDRWcXhxSjFYNWY4cFVyRlFQZ0I5cVZUY2xPM3dKek5mX194akxad2I5MGluWDRuT2l3YTBkZmVjM0E3ZFFMSQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Lula and Bolsonaro statistically tied in potential Brazil runoff, polls suggest",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaURKYl91cGFJWDU2bGhiQ09OVTlPN0ZaSmhiZG9VZVlCMWlnVG1ncGh1SDRwazhzY3FydWlEY0JnTm1Ea1M4Sm1iQW9hMnd4WkFOcWhUc2hOUXJWWTlJVEpnVGtBNmVBbXlWY1owMU1hZ3p5Rno3cC1pc01OV25ZZFlLemI0NDM4bXpuT0VWUXZsbDNBLW1YQ3pfMzZRb1pqQVhSSURENXIzTXcwTlJIenJsekdQZXcwU21rTEhITzZqUUE?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Brazil's Lula, Flavio Bolsonaro remain tied in runoff scenario, Atlas poll shows",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTVE5bDdjNTBSZFhIWTM1b2xIamRvb3BjckRFUHhLc3dma3UxRHQwRk54UkRxLXI2Q1o0ZkNKS2MxRGVyeDlkcGcxVjlobWk5SHRtbkFZVm9wYWx2UUJZQmhzLUZRV0JMQXVGd3ltbURlRS1zQnk1X2N1RW9FTEk1Vl9vZ3RPSm1OV09hQ2dJRzYzX3YtMTUxZXZGdUQ2VHBjTnpHQlVCVFEwaWNYcTB2NjRBXzQtZllQR1l1N2RkOXF5aTA?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Brazil economists cut end-2026 interest rate forecast to 13.50%",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcFJsUmNMTmhGTnBiTjBXSjRPUDlzMzdPeC1nV0lzRU52WnBDS2ViQll1OEU3XzFoVFR6OWdIcmd3dHkxcWdHallZeDZxYjhuSzBma3JsdmNyTjZ3czFQaGxqMXFTeDZoM2V5V0xwa2pXS0hUUThwanowbFMxSmRIOWNxTF9vNzZFM0VoZTAtRFhQTjl6ZDZpNHpPRmk5dWExWXVYZEZ2Mm9rdFZ2X1E?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "São Paulo",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Liberdade (district of São Paulo)",
+          "url": "https://en.wikipedia.org/wiki/Liberdade_(district_of_S%C3%A3o_Paulo)"
+        }
+      ]
+    },
+    {
+      "id": "ca-vancouver",
+      "name": "Vancouver",
+      "country": "Canada",
+      "lat": 49.28,
+      "lng": -123.12,
+      "asOf": "2026-09-25",
+      "video": "ca-vancouver/2026-09-25/montage.mp4",
+      "poster": "ca-vancouver/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.89,
+          "text": "Vancouver is a major city in Western Canada, in British Columbia's Lower Mainland."
+        },
+        {
+          "start": 6.85,
+          "end": 11.4,
+          "text": "It is the most populous city in the province, and Canada's densest."
+        },
+        {
+          "start": 12.35,
+          "end": 16.76,
+          "text": "Indigenous settlement here began more than ten thousand years ago."
+        },
+        {
+          "start": 16.85,
+          "end": 21.98,
+          "text": "The port is the largest in Canada, linking Asia-Pacific and Europe."
+        },
+        {
+          "start": 22.35,
+          "end": 26.75,
+          "text": "A steam clock in Gastown marks the site of the original settlement."
+        },
+        {
+          "start": 26.85,
+          "end": 33.16,
+          "text": "Forestry remains the largest industry; tourism, surrounded by nature, comes second."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Wikipedia",
+          "title": "Vancouver",
+          "url": "https://en.wikipedia.org/wiki/Vancouver"
+        }
+      ]
+    },
+    {
+      "id": "cn-shanghai",
+      "name": "Shanghai",
+      "country": "China",
+      "lat": 31.23,
+      "lng": 121.47,
+      "asOf": "2026-09-25",
+      "video": "cn-shanghai/2026-09-25/montage.mp4",
+      "poster": "cn-shanghai/2026-09-25/poster.jpg",
+      "durationS": 35.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.54,
+          "text": "Shanghai stands on the Yangtze estuary, home to thirty million people."
+        },
+        {
+          "start": 5.85,
+          "end": 11.9,
+          "text": "China's fuel inventories hit over decade lows, raising concerns over export curbs."
+        },
+        {
+          "start": 12.35,
+          "end": 18.06,
+          "text": "Reports describe a national artificial intelligence boom in funding and robotics."
+        },
+        {
+          "start": 18.85,
+          "end": 24.39,
+          "text": "A leading livestream seller confronts slower growth and artificial intelligence disruption."
+        },
+        {
+          "start": 25.35,
+          "end": 29.75,
+          "text": "The Port of Shanghai is the world's busiest container port."
+        },
+        {
+          "start": 29.85,
+          "end": 35.25,
+          "text": "Local cooking favours sugar, soy sauce, seafood and freshwater food."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "China's fuel inventories hit over decade lows, raising concerns over comeback of export curbs",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNY1JINFhpNlRoREQ1VUJrTWpBR0swMVRjM1VxY2NJOGRCNHRPRWUzWU83SHRYb2FIcWR0SjdDOHJZeXBzZ3NsWlNFVUlMUldnS3h2Qm9rZFVlVDdBQWFvSjhtTEpaNXo4S1pOQ1VLbXJTUXBLSHpPaVd2QnRMcDBtajhtMWZmWDZqdzRSR2hnaHZRSzJMTWt3S280LVFSMTlVcHR0Tldrckk1WlczSDdHNklOTjF2dTY2LS1kZ1NYTngtRGp3TGc?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "China's 'Lipstick King' confronts slower growth, AI disruption in livestream shopping",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZ1J5ZFB5RGFkQ3BLOFlwY3BZN0ZieUp0RlduUzlrU1JySzJZTkNSM3lBaTBnclQwbG9fQjdSVzQ1Z0hDeUdQNUNKMnB3T0dvZTNOTm9jUlBGYlRRSXdCNmRGYXVQejZoWkNPZ1h0NV9mdU1VQU9uS0NpV3dPY0xnQlU2ZzVjbnhwRlR1aUd3TGlKamFmTmFick93S1AtdV95RUtoSHlsdllCSDBlOUhySTdSbXRaWUVnSkV6M0p1N3NFbzBjM1YwNDE5cWNVeEFiN1dNQ3Rn?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "NEWSLETTER: Funding frenzy, chip wars, and robot dreams: Inside China‘s AI boom",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1hSZVA3UXRLNWE3RU8wUWRTN3Z5SGRTQWkzRGRScVVHdDhfWFliZXdLSXlDdzdoX3NhN3BjdzNEUTJ2NmJRMVYyN2RteUdidHd0ejNtS1hZSlFPUWw5Si1GblRRQktKM055MDQ3V2kzWlVuREpNSmJZelozbFZuVGU2MW1STXdqN09mUEJRa3hHUkNXbEdRUEhBV0gzVHg4RjRmQ0VRcExrNURXZnExcURyWmVheEQwSTVDTEhCODJGZUNWV09OSUFn?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Shanghai",
+          "url": "https://en.wikipedia.org/wiki/Shanghai"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of Shanghai",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_Shanghai"
+        }
+      ]
+    },
+    {
+      "id": "de-berlin",
+      "name": "Berlin",
+      "country": "Germany",
+      "lat": 52.52,
+      "lng": 13.4,
+      "asOf": "2026-09-25",
+      "video": "de-berlin/2026-09-25/montage.mp4",
+      "poster": "de-berlin/2026-09-25/poster.jpg",
+      "durationS": 31.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.11,
+          "text": "Berlin, Germany's capital, a city of three point seven million."
+        },
+        {
+          "start": 5.85,
+          "end": 9.94,
+          "text": "This week a far-left party won the Berlin election."
+        },
+        {
+          "start": 10.35,
+          "end": 15.18,
+          "text": "It pledges to nationalise housing, and may target large property firms."
+        },
+        {
+          "start": 15.85,
+          "end": 21.22,
+          "text": "One commentator says Berlin's new political star offers hope and housing."
+        },
+        {
+          "start": 21.35,
+          "end": 26.04,
+          "text": "Nationally, the chancellor vows to stay on after state election losses."
+        },
+        {
+          "start": 26.85,
+          "end": 31.09,
+          "text": "Berlin has also withdrawn its bid to host the Olympics."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "DW",
+          "title": "Germany news: Berlin officially withdraws Olympics bid",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdXFETF91NHJzNmlGMDczMV80RkxXQW44RjNpUlByYTVXaHRBSTRuRk1lMlNLMjlHU2N4RFRxZVpiUVVZMENXTHpzZDV3WTZDWEt2emh4SndxX3FiZElTM0lhMzlrVm43NUNWMWlVcUVrR3gxSzZUd2pVQWZCU2JJdm10Tk9idDVIbnZEQl9kU3N0dFU?oc=5"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Germany's leader stands his ground after his party loses in state elections",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Yckd6anZYZ1ZHSGNWeTQ5TTh6QXIxbzRzUTVoTFJPNkVpRWV6bFhublBfc2JiWXRUXzZFdjZHS2NYYkdjdmxGeVE4UnkyWDBZQmVfTkNrY3NOSnJxcGZlNjI5U1d3U2FHVVIzX1J4b0xjVTN0SDU0QWVpSQ?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "German state elections: Chancellor Friedrich Merz vows to stay on despite 'disaster' in polls",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1od3dPRXB2cGIyd3kwXzQ5UVpWUGIwbmZ2cjNCUWFBTGc1M1VJcS1SVFJCMkZGYkhTSEZlRWNtUC1GR1pWRXhHRTYtRGdTWDR6clpwblkxa04weGM?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Far-left party wins Berlin election, pledging to nationalise housing",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMnUydHFrMktYV0ZDSnVnVEppMjhMT1hVVnE3Zjl1ZldPMEVQT0JKVlloVTZZSDVGR0lwd01tOWxGMGlOQzR6SjMySTdXZEt3WGNPbTVWbmZSc2dKTU5IeGVaRE1DSFIzR0swQ3hnbF9ERU1IWloxRHNvX3pEeVAyU3ZhMDl3aG9Ga2tVeVdPUmtmSGhmZTA2Q2owbkpPSzBseFVFQlNzUmFVdw?oc=5"
+        },
+        {
+          "outlet": "DW",
+          "title": "Could a Left Party government in Berlin expropriate large real estate companies?",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZG9fWk1BZDZBQmx2ZWtnNDJyRUNPMjhYV3VreFVpMDBrS2NPZEpiZURxeEw5ZjlDSGdQUkFMbF9LQ2lMXzdSdXhfLWVHTXJjWEN5UFpMMTFaMTdYTkJEZ010TnlzNDJsODlSR09ucEZMc181QnlVSTA0NFhNVmRmeFo0VjFodHFwdjNkWlBYeVhRaXg5Vmh4TFpkTkU4dW84UllPc1l0bGRMRGI2Qm1QSi130gGyAUFVX3lxTE1zV0JrRDdiWnJrUmU3b2sxMjFFdDBaZ2w2dnpRU28xQ3dWLXM1dnBpRXY1NmZlc1RtSkNLQUhqRzU1aGNvR0MyZjNkNDFzY1E5ZG1YWTA5YXdOWk53NDRoUjNmenlfTkdSNTF1LTZJRVU3VFc2Q2g1bUJPU0xqd2tvcmp2dmdnY29EYlY2d1k4TnM2QXZPdnFleEIySUhnM3Y1cTRmQ1FDZ3lrb1BnX21kVXc?oc=5"
+        },
+        {
+          "outlet": "DW",
+          "title": "Munich the favorite over Berlin, Cologne-Rhine Ruhr to bid to host an Olympics in Germany",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb1VMQWJtMWVxNkxueVJPaVNsTFc0dXhFRE5vczJZMDQ4UFYwTFI2Nko2cXlPcVhBN0VRTGVYMTF5bHkwcHp0VjZZTXlud2FsTXBNU3EweUVtWjVNSTZ5ZWQ2N2xLcW01LVBUVmItS21KdEpCb3U4aTVrMGxsQkdScTY4ajN2SzVLeXlGdzhLNUQ2RTgtMW5Lak9WWklpNDVG0gGgAUFVX3lxTFBPTjBxQTIteFhYWVFUTkJwMHhzYkhGTkduWXY5cWNFWTRySmxISUpMUkNXd20wbVhYUVNtNEx0WFQ3OFJqbmtlbkRQN1hVUVJHWHFnRnJDdDcyTzBWcFR6Q2FlcmlHS0NfajFuTzZGTkdXZlRZbUw0TDd3RHBWLUdXejVXNzdRc0NUWm81M1JfeWs0U3h2OFZTOW15X3hlZHk?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Berlin’s new political star is offering something all of Europe needs – hope and housing | Fatma Aydemir",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSWZJU1ptUFRsc3hfTERoQ0NHVzdwVGlnSUJsWEg0YXVmWUthZE1mOVpxNk1RaVBBUGFZUVBCd2tINnZJRXlSNXJEZ2ZZclVpaDMxeGRGZFdESVJ3NVdESEh3a3ROLWIwaXRBT2IyLUJoMWs5d3NIb3BTV1RCT3J1bmk5dkFVNkpoZzJ2R0o5SFI4N19pUlEzbGI0VUZ4SURmbExDaGp3?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Berlin",
+          "url": "https://en.wikipedia.org/wiki/Berlin"
+        }
+      ]
+    },
+    {
+      "id": "eg-cairo",
+      "name": "Cairo",
+      "country": "Egypt",
+      "lat": 30.04,
+      "lng": 31.24,
+      "asOf": "2026-09-25",
+      "video": "eg-cairo/2026-09-25/montage.mp4",
+      "poster": "eg-cairo/2026-09-25/poster.jpg",
+      "durationS": 34.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 4.75,
+          "text": "Cairo, Egypt's capital, holds more than nine million people."
+        },
+        {
+          "start": 4.85,
+          "end": 9.86,
+          "text": "This week an Egyptian bank steps in to buy a rival's Emirates operations."
+        },
+        {
+          "start": 10.35,
+          "end": 16.15,
+          "text": "Saudi Arabia's crown prince seeks Egyptian backing as Red Sea routes are threatened."
+        },
+        {
+          "start": 16.85,
+          "end": 21.93,
+          "text": "Wheat buyers brace for higher costs as the war in Ukraine continues."
+        },
+        {
+          "start": 22.35,
+          "end": 27.99,
+          "text": "Qualifying for the 2027 Africa Cup of Nations begins across the continent."
+        },
+        {
+          "start": 28.85,
+          "end": 33.76,
+          "text": "In the old city, a thousand-year-old capital settles into late September."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Egypt's NBE steps in to buy Banque Misr's UAE operations after sanctions threat",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOc1V6cVZXYmhuN2pBWXZKc2s3VUdNNlg3N0dKeVpNQmhtamE3NXQ1NFhqRUdObVBGZms1dDdQaWswNUNnaktFczEtb19zc09fcFRYWmx2OERxakN6VUhtdGFfTnprWG94ZExiVmstMlV2akFCaHNkMml0SW5mSEY3UDl4SmZyT3o0R3gzT00xbnRQWXpPN0ZJSUd4YVRCelZabjBBNzZvNlN6elkyQWJlcGxnQ1UzTzNSX0ZpVzVpQkJramgyaEE?oc=5"
+        },
+        {
+          "outlet": "AP",
+          "title": "Saudi crown prince seeks Egypt’s backing as Houthi attacks rattle Red Sea oil routes",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd2VMUk1SbDJibzdYOGlmQU1RUkZfS01UOHd2SkdEOXR1UGVSZlhXZnVMODVZWXVNTzloSTR4aWtZd19EdWJBYUV4aVU2WG5QcEE1QVJfcGpnN0x0ZGkzTTB2aGdvdVFyTUppb3BvUkwtT2NKWXhHbFpSNWg0dUFfckJfN1phc29OOGI1V1Yzd0tpcHctRjlNRktqTzZ5UTdGNmtVZU9obVlFUG8?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "AFCON 2027 qualifiers: Which teams are playing and what’s the schedule?",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObUVZd09pWW94cTE1ZWRFeE1pYnZpQ0JlRkxFYXhhT0tXN1FiYjBtWXAwM2pFQTBzMHlPbF9zT0VNRlI4c211ZnpuTWdSSFdzcEVydGs0Vm1NbHhpREFjV1FHQ0owN3hBN24xX2xYUE92emR3Ujc2YVh4aUJRLVBqaW5YZ1JwOVdxekJ2b2VnUmh5RmhiWjBmeFBxNzU5Q0x5OEdzQ0RLekpnWENQ0gGyAUFVX3lxTE9HZV9vZThQLTVsM3FpZm1yQ191YzQtN2VYa1ZpTVJoRzd2YTVXTVRhc1hLUTBWaTc2TW1sZDZjUjNUWFA2VHVFbWtRN2ZjT3dZZkgwbTlwcTk2Y1ZtWElRNE4zb3FsN3dwejZ2LTdMOWYwTHdCM3h1LW9ZRjZGcHluclYtVTFwVDljUGRUNldxYzBnNGJzdTl0Z1dWc1lldF9UOGRWX3U1R1JweEZTZTZZenc?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Wheat buyers brace for higher costs as Russia-Ukraine war drags on",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaUswVEozejNqc18tLUlqcnBVXzNDVDNkZHQyN25BdDhqYTVBN2NTNnVoODNxLTI0bXg3d00wWXY1NW1yUVpuM1FDLWFsZVYzVFVwbkNqbzdBd0JHaDk1UGg5NXVFQ2g2MFZwalBpYW9GRURiMVB4cnd5RWd3cXpmcktIalFsNFBxTU1YNTRBakx1NXRBaEJJWlo0Q280X1FIcFR3cWxfTTVsV2ZIUlBmX25na0E2U0JhdTF6M2dQMA?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Afcon 2027: Patrick Vieira and Herve Renard begin qualifying campaigns",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGZHhRYm9aa2QzbXl4dnQ5N1FxaENUZ2sxN1F4Qzl4U0pjc3FPZjVWYU4ySk5rRjJQM3hSakJuV1hNUWhpa25vYmo4MmM4NVN0SmE1YjhnQlU4dlE3V0F4d04xeFdnWi16?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Cairo",
+          "url": "https://en.wikipedia.org/wiki/Cairo"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Cairo Geniza",
+          "url": "https://en.wikipedia.org/wiki/Cairo_Geniza"
+        }
+      ]
+    },
+    {
+      "id": "fr-paris",
+      "name": "Paris",
+      "country": "France",
+      "lat": 48.86,
+      "lng": 2.35,
+      "asOf": "2026-09-25",
+      "video": "fr-paris/2026-09-25/montage.mp4",
+      "poster": "fr-paris/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.04,
+          "text": "Paris, capital of France, a city of two million on the Seine."
+        },
+        {
+          "start": 5.85,
+          "end": 10.99,
+          "text": "An ancient wall found beneath Paris provides clues to the city's origins."
+        },
+        {
+          "start": 11.35,
+          "end": 15.75,
+          "text": "The find could confirm the site of Paris's first settlement."
+        },
+        {
+          "start": 15.85,
+          "end": 21.39,
+          "text": "Pope Leo the Fourteenth visits France, warning the UN risks becoming a charade."
+        },
+        {
+          "start": 22.35,
+          "end": 27.49,
+          "text": "The Goncourt prize drops a novel after its author is accused of using AI."
+        },
+        {
+          "start": 27.85,
+          "end": 32.5,
+          "text": "Along the Seine, parts of the city are a UNESCO World Heritage Site."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Pope Leo warns in France that UN risks becoming 'charade'",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSDVCYVZOeldNcHRxT0RIYTZqYmVyYWF3dWVfUjFvVGJwVTlJUFdfSGVzMVhnU01pRzdfZU1oYndGSXZCcUdLUmFvc21RYTM0ZTV6TS1Td09XUHhBMVA3VFV2a0trYWhmaGM3Y3ZNb1ZnTTZtWkU3NHd1UkxUd0hUenhyb0VlUFhBRHFzMW13dGQ0M01adXdlS1BvY3NnZElBM0ZJ?oc=5"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Pope Leo XIV’s visit to France: What you need to know",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR3labEJnUkJ1RVFianBNZ3VUS0w4dkdHSWRMM1BveEppVVUyTXhsU0huNkw0dS1EcHI0LXlwcUxqQkFuUU93OXpJVXpzNGhrcXlDc3ZROEZXR1FFWEVmTnhTSDZYSVMtSDdMMTRubG5kdmRlV1E2M3NMM3MxTWdJVUZDVUdiRTBiSmE5OHZEeldwRE9ZSUZzN1FWYzU?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Ancient wall found beneath Paris could confirm site of first settlement",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTU1iY0Z5S1lOTHVCMGpNLTdqUkdBeEMwUjk3S0ZBZGxzZXhBUUZwNnktcDcyUTFocF8yeXFlQXVJVGdOcjV4ck5rYnVMMmZpQ2w5MXlwQ1ZGMEVadWcxVzBHcGNNWDRrQ0RtNW9uOTBneDFrMGJTYjB2QjBrNXJfblUyM0QxOTRKZ0hfSjFPYUJ6cmNZOU12UjVZcnZSTVUt?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "France's prestigious Goncourt prize drops novel after author accused of using AI",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNczY3VUk3SFE2VUd4QjdGTUZYN1ZlLTNiVDBSNENSU3JQbE1MRTFOWmxrc09HZ2lzQTBOamduSHBaanF6eWNmNG1EVnV4clBudGZfR1htdzk3a1BuX05WOGJlTkZ1SG9VQzRpaFR2Y2Q5UGxSUVJRQjlrX1Z4WDRtaGxRbnZqZzJ2b2paSlpGTU9HMHZ0eFhVX3phR2F0dFV5SUVaZ2JfYW1RWlNySTZHU3V3UUV4UHZzV3hXZVZtdWxEOTZSZUxUbnlhLVdzOWJK?oc=5"
+        },
+        {
+          "outlet": "France 24",
+          "title": "'Breakthrough' archeological find could confirm location of Paris's original settlement",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVVlCZktlajhZVWZrS0RiUFN4RnlMWDIxVlpRcXpNQzlBU2puUHI2ZmZnajdSamlRYjFZeDFTeFdXaE93VkJocU1GdHZrWjFSUWxHcjV1NmZsUkxfZEczdk5aSnVwRmluSHdhMkpiOVhoc25mblByb0puMEZreUJVM2ozbVVxU3dOdWpqRjZUVmxyUTJvNWZKR0F2aXlQcm5ELV9yVUJB?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Canadian and French publishers stand by author accused of using AI for prize-winning novel",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPOHY3NmZmazZOWVpVaHpPMFVHaWUtUWxSUmZhYjNYUEVOZmxuOEgyRl85UWUzMFd4dW1SRTNPQ2E0cUxWemFPcXVmM1lQY1ZCTVF4QnJCeWxRV1hveTZTZmxtMWRtVFE1Zno2enlQbVlNOU9sNUFBV19VSWU5dkFBbVNrOHR1TVJsblRjNVowRjNHa1ctbndpUU1fcFlFM1ZfYjBfX3ljMkJZV2k3UnNIamIxcnpaektPU0xFM2Z3?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Ancient Wall Found in Paris Provides Clues to City’s Origins",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSGVMRnN4VnVSQ1o3SGVobFRYYkEyQ3RGWEpDeENzeTFuaWNwV0JyZGVqWUZIQXlBU3ZIVzk0cUFxS0RNMldBSi1OZXdtRkpnd3E2cE90WEJoUlN6d0diQlhlbnp3T0ozUzNrRUVnN2hZTTVYLWdudW9lTWpubVNMYlZ3?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Paris",
+          "url": "https://en.wikipedia.org/wiki/Paris"
+        }
+      ]
+    },
+    {
+      "id": "gb-london",
+      "name": "London",
+      "country": "United Kingdom",
+      "lat": 51.51,
+      "lng": -0.13,
+      "asOf": "2026-09-25",
+      "video": "gb-london/2026-09-25/montage.mp4",
+      "poster": "gb-london/2026-09-25/poster.jpg",
+      "durationS": 34.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.76,
+          "text": "London stands on the tidal Thames, a settlement for nearly two thousand years."
+        },
+        {
+          "start": 5.85,
+          "end": 10.66,
+          "text": "A man appears in a London court accused of aiding Russian intelligence."
+        },
+        {
+          "start": 11.35,
+          "end": 15.89,
+          "text": "A fresh air traffic control failure delayed flights at some British airports."
+        },
+        {
+          "start": 16.85,
+          "end": 21.66,
+          "text": "Britain will stand firm over the Falklands, Prime Minister Burnham tells Trump."
+        },
+        {
+          "start": 22.35,
+          "end": 27.13,
+          "text": "UK asking prices for property rose for the first time since May."
+        },
+        {
+          "start": 27.85,
+          "end": 33.69,
+          "text": "Late September evenings fill the West End theatres and the river's quiet embankments."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "New air traffic control failure delays flights at some UK airports",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMEd1cUpBNXFYeDhkcWdXWWFuX1o1cDVkZmRDUzVxRkowMEdkaWN1OVpNS1ZMOEdxRlo1V3p6ejF0VXljbUlKeUlzTm4ycldLTmtGVmZicHJxRU9tYUFaZy05eXNvRzZiS0VfQVNUdUNkdV8zdzR3WlAyRF9JVm0yb1FjSkRYb1h3c2g3X0hpVXZjN1pObEJXRHEyN3E2LWJjZjVZTVI2YU9hRktZc2Z0Q3RsRVZxOU9BdC0wY2tieWtoeEk?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "UK property asking prices rise for first time since May, Rightmove says",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOemdycGxmUFdtS3YzbzF2SC1TTkFsOFlDOXItXzA2SFg5T3pNS1Q1eG5xb1p3TFhlYmJhUHBXVTNjS29yVmRQWDk2V29VdUJxekVidGM4Zm5Qb0NUT3BYZ3JZSnA2ME9TdURfSXFGNTlQSGk1akxXbWRqVE1hR2FNZU1jVmNPV1dVVW95Nk9ZNWk3aHM3bHZGbUxuaWl1MFdTMmJwaThZVE92U2Jfb2pKOQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Man appears in London court accused of providing Russian intelligence with drone factory details",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSURnSmpKX3kxWmhYdE1sRTdaV1BwLTNGd2ltY1NaME51UkpLOUt0SUhCMFg0VDdkV2h0U0xjeDl1UDNjOERpNVFrenNxNnl4UmxxS09HRHo3QjBXX3Q4QnRHLWQtTVBnb3BfeVdLYmd2Tm5ZRG01aVVvdVlkZWwyNWh0RGp5ZWhqbDl0UVhHdVo5TWRvQ1FrcWh0VnZqaWt2OXp3OG9LZmppOC1STzBmRlNDcWJxbHNFVHBN?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Britain will stand firm over Falklands, UK PM Burnham tells Trump",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONElycFpNUlNJVTJ4SE9PYk5kZ3BOV0FaWWJJMmFWUHNubW5UYkhoNGtPR0dBYkVhai1abjVhWm5GUnRTZGlPX3kwSE52NlBneTlnYzc2bk56WXBDOVFHY3Rpd2ZidXVHM1JtdXVpdF9BbVUta2JXLURfOS04MkU3Z0RBaE9raTVvRmVIVHlZVEZjUTFEMGhjSVB1WWxlcGoydEFFY2FxMm1ndGRiV0E?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "London",
+          "url": "https://en.wikipedia.org/wiki/London"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of London",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_London"
+        }
+      ]
+    },
+    {
+      "id": "id-jakarta",
+      "name": "Jakarta",
+      "country": "Indonesia",
+      "lat": -6.21,
+      "lng": 106.85,
+      "asOf": "2026-09-25",
+      "video": "id-jakarta/2026-09-25/montage.mp4",
+      "poster": "id-jakarta/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.91,
+          "text": "Jakarta, Indonesia's capital, stands on Java's northwestern coast."
+        },
+        {
+          "start": 6.85,
+          "end": 11.26,
+          "text": "Search teams continue looking for more than a hundred missing at sea."
+        },
+        {
+          "start": 11.35,
+          "end": 17.41,
+          "text": "Millions across Indonesia breathe toxic haze from months of wildfires."
+        },
+        {
+          "start": 17.85,
+          "end": 22.77,
+          "text": "The president calls for stricter sanctions against those setting forest fires."
+        },
+        {
+          "start": 23.35,
+          "end": 27.76,
+          "text": "The rupiah heads for its steepest weekly fall since May."
+        },
+        {
+          "start": 27.85,
+          "end": 32.8,
+          "text": "Forecasters expect a delayed wet season; farmers prepare for the impact."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Indonesia forecasts delayed wet season, farmers brace for impact",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM1hvWERidTFXLUZEbWZVOEw1RC1vUW8yLURoc0wzc0ZPZHByaW5aUjNMQlRmMEgteGxORGpVRFRqSU1JSVplUTJNRThmQUVSa0NOZmRZYm1vR05vMHpXT0tjZ3FaMmZrZE9EUmZwU2xaV1Y5RXNLTFRqdUVCQlVvQjMyeWNUUENycExSNkNpaVBwdG43RmpkUFlydlJzUEFoTV83eFdBbnRvZ25NRmxxa3dYcjhLMXg0MlhVNEF0ZUU2LVVjbVAzZlgxMTU3UQ?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "‘The physical toll is visceral’: How Indonesia’s fire haze affects millions - visual guide",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeXpWS0tjMG1OVVBFRl9Jb0JMSk1MQUJWelFnS3hkNFUtRi04MTJwZVUyQW5iMENJd1gyNVZhMkhJNGhSTzJkQXBrdHMxNFNzRERoalFGZkM5SVY5R0NtTGxoZTlyVkJEdWR0aDFUaFI5U2FxeEpFV0kyV1NaUWNTclFDZDA1Vy1OUkIwQ0F4UnV3anNjLXNn?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Indonesian president calls for stricter sanctions against forest fire perpetrators",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbXlqbFpqSDZhX21uNVNxSnhRamJRcVpCd1R4RkRIZGpRVWdQdmxtaWtUanpoUDVZa3BGSURCSHVIWEhVN2NXRmdtbHhqOXhvaFAxcjF1bTh6OFMxa0lRdkJkSE5BSDVVM3pxWl96WjlId3NXeUx3bk9UcDBQZ3ItbjVmWV8xay1EdVNwQVo2X0I0dzhQMGx5cTR3LVRqSVRYM0RyWWY0SzQybjJ2c0dwcjQ5VFNjb0duMEc2eTFoaEZnV3BPNHNRYW1YQlZMV1k?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Indonesia continues search for hundreds missing in capsized ship",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSGRNX1RUUzViS3pqektQTlFyRjRVNURxb2lNUzBfaDc3aDlGUjZlQW9wRDZRLW5vUkJHQk84eU5rb0t2eGNDOEVJb1RCRFZVaVdsR093cDZkbTc5SGFSeERTUElOR1ZCTnpIOTFLODAzUTFvalllSWhVSmh2NktrQnJ4Wjc3aExmNFBOSkJUa2tOa2FVN09wd0JUTnROLXVwazhQVnRVYnlwYXZsMXFNTkp1V2dQYjhLQ0JVWlBwWkVvS1pKdDNDcFc2QQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Death toll from capsized Indonesian ship climbs as search widens for 107 missing",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU2lnMnktTDNoV3QxdVBMV3RfcnNJUk1EbFFnOC03SnR5VUFxVC15OFBPNmRrNGlJanpMeGFPOGtsLThyUi1ZNjhYT3I2b3ExSlZYMjdlMzdYa0NKOW1rZDhPamhZenpvM3l5YVVmd3AtQld0T2p0WS13TldyQ0xEc25YZFd0YzNQakMxZnR1bmZwZUY0TXBmN3JmTkhHOGlvQXpieW9EenVxMUw5cUR0VFUwb1lNWGFTU1g3THJFalUyQ094UkE?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Rupiah set for biggest weekly fall since May as higher US yields, stronger dollar bite",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcnpoa1VSQ0ZBUjJVNEIzUnZDb0lhbFhtX1lHWVhCS3RKb1V0VDlGVEM2UjVXMTVMS2pObFBGSEVqLWRiLXVHY3p1R0xnUlJnZkRXVkpYTEYyWDNKelM3RTRpdVVSSFNINVV0TlZsV3d5WkZ5VTZYelJjMUlkdlR5dXJXbXQ2Z3RhcmtYOGpWd21lU0UzRnRMRjBrS0Z0U051RElSSm9lSzBlMmx3WlQ1Mi1oSE1GQmJqR2NNdmxxbVVxRUhV?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Millions in Indonesia Breathe In Toxic Haze From Months of Wildfires",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDV4bDdiNTVqcndydkJ4dUJPM1BGZEotZnhVdHh5cWZQcDhuUFEzRnYyUzd0RUZnWlBnWnFNcjFuUVpMZWRQaGczcW1OVWkxRjN4QVE2RWpqTGVWZW5TTnBkQ3pkc01KYXI1elpnaDNOVFpfaW5IRlpXeVZaZW5iRkpSN0lrdmI4TzBRbm93OVlCdnlFYm9GYmlrRTF3QQ?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Jakarta",
+          "url": "https://en.wikipedia.org/wiki/Jakarta"
+        }
+      ]
+    },
+    {
+      "id": "in-mumbai",
+      "name": "Mumbai",
+      "country": "India",
+      "lat": 19.08,
+      "lng": 72.88,
+      "asOf": "2026-09-25",
+      "video": "in-mumbai/2026-09-25/montage.mp4",
+      "poster": "in-mumbai/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.14,
+          "text": "Mumbai, on India's Konkan coast, is the country's financial capital."
+        },
+        {
+          "start": 5.85,
+          "end": 11.32,
+          "text": "India's National Stock Exchange lists, valued at forty-seven billion dollars."
+        },
+        {
+          "start": 12.35,
+          "end": 16.79,
+          "text": "The listing follows a wait of about a decade, Reuters reports."
+        },
+        {
+          "start": 16.85,
+          "end": 22.89,
+          "text": "Indian shares log their longest weekly losing run since 2020, as oil bites."
+        },
+        {
+          "start": 23.35,
+          "end": 28.35,
+          "text": "Traders say the central bank likely intervenes early to support the rupee."
+        },
+        {
+          "start": 28.85,
+          "end": 33.26,
+          "text": "Tea stalls stand on almost every road and corner of the city."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "India shares log longest weekly losing run since 2020 as oil prices bite",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRDlIOXFjNzhyRGVteU5DNTJCdVlRNUZEY3VObFdZNDI1MDU2SUo0NEM1N1JDTHpDMTk0YU9OM2V1eXRla1VaanBsTTlUM1lWR3VYU0g1eG5pM21hNzFWQTdabWphemRRMlc1U09MdWxVRVNLUWxjd3pIODVuY2UtcFE0dEhPTUM2MU1pbHNOQ1NnOUQtME1TTDJjSzJzOGljZTRmN0NBZ2Q0S1VodGZaSXFxZU1VTGNnanc3a0o0anM?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "India central bank likely steps in before market open to support rupee, traders say",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa2hrTWJ6RXV3UUtZYnlIRFFZVGFUUkp1UDk2ekMzdGk0TmxEaHJJTV9JT21DUHZmcUd6c2FSdU1rRXhIa0R4X2kyWklORHhSOVdXZmZ3Z19XUHV3Y1d6VTdEQkdJWGtDZU1sQl9DRmJvbkFXWUVHRE40U0hNNlQ4SVBUa2d6THpUdUtpQ2tWR3hxYlBPWjNtT0I1WEdLYXdINWthOU8xOG9nZm14S2pwM3Z2ME5RUmw3d3dSWnRvbnBrQQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "India's NSE lists after decade-long wait; valued at $47 billion",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbnd5YkpLRWdQV0NMdEh1bHdzbVFMVW1Objh3Njd0OEVUVzUtSTMtemRCVXdGZ016S3N2ZnpMRVRXTjlyOXVkYm5KWFdjaUpRZ2ZHWkNMQ1R2eE9TQkZueXcyV3BESTdMS3Q1WUFBcmRjY3pZWVBZTTN4R1FhR2R2YTZKWEpUYVhPS0gzYXpTZGgyRUp5V2xjaGMyWlltOU9VRTFMZzc3U0M?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Mumbai",
+          "url": "https://en.wikipedia.org/wiki/Mumbai"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of Mumbai",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_Mumbai"
+        }
+      ]
+    },
+    {
+      "id": "is-reykjavik",
+      "name": "Reykjavik",
+      "country": "Iceland",
+      "lat": 64.15,
+      "lng": -21.94,
+      "asOf": "2026-09-25",
+      "video": "is-reykjavik/2026-09-25/montage.mp4",
+      "poster": "is-reykjavik/2026-09-25/poster.jpg",
+      "durationS": 34.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.73,
+          "text": "Reykjavik is the northernmost capital of a sovereign state, on Faxafloi bay."
+        },
+        {
+          "start": 5.85,
+          "end": 11.04,
+          "text": "Trump says the US, Denmark and Greenland agreed on US security control."
+        },
+        {
+          "start": 11.35,
+          "end": 15.88,
+          "text": "One analysis asks whether that Greenland deal is mainly about optics."
+        },
+        {
+          "start": 16.85,
+          "end": 21.37,
+          "text": "World leaders addressed the climate crisis before a United Nations meeting."
+        },
+        {
+          "start": 22.35,
+          "end": 27.92,
+          "text": "The city of about 140,000 people ranks among the world's cleanest."
+        },
+        {
+          "start": 28.85,
+          "end": 33.8,
+          "text": "Its name means bay of smoke, for steam from hot springs."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "The Guardian",
+          "title": "World leaders address climate crisis before UN meet amid record-breaking El Niño",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY3ZXUFotdXFXdFR3cjJwX0dfX1JaaUFaTmJySWdFQzd0QlZCWG5rNWx4eDBpSEc4SW9TU2tKMHRPRENqRFNpbUJOdW5hQkNibWhXek1kak1hZjlINWd0d1F1UUxKZ0tsVWgyZWlKTDUxSzRqYkkyVV9XYXpLT0pGTjh2aEhnZTdvb3JHRDVDUm11dw?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Trump says US, Denmark, Greenland entered into agreement on US control over security",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR0lyZGs1ZUF3b0k3YS1laTNXMWZuR2dLaXJaeThJbDItdjdad2RCMk9SRzF5ajAxcWJ3cTJ1ZU9XTE9KMzJuWEJETWFNTW5mV2lZZjh2MFhSZVU4VFJaeUdBRXY5VXdHNHlPMEhwQ2ZfUFYyR0ZqTEc3V3VsLW9oc0pjRENLQ0N0eS12eDB4dlRLczJmemVXQ3dyeXlnMUJ2d1IzSU1idkJOZW8xVlI1S1JBZnZCTG9jQW4yTlZn?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "What is in the US-Greenland-Denmark security deal?",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb3Vvbm00a3pzcFVJdl8yTG4zU3VHN0RIanVaVHlicnpjcmRvY2VVQ3NaWmRkbHB2ZGJSbXotdTB6UVRmUjQ4RzBQbTF6b29TbjQydHlmcWZnTHFXRnpLNk5NWXFEbVlfNXIwT0ZENjJrMzRWR01YRVVFNnVsYVEtYTFGVGxwV0o4WTFBbnZLajUyc3BEMnZFQTdBZ0JKVVlsYjV4QkV3TlY?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump’s Greenland deal: A triumph of optics?",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmJ5RDd0bTZpMUNsR2M5aEgzZFF3NkxqNTV0Yk95Wl9mRWNWM0VqbElWNHExNVBSVmtvNTdIa0VPd2dwdTB2SGRnZEFTSURlXzJuSnNqZHRzNFVUVEctRDFTWGJpc0ZCeWMweHpyZ0t4MW5wWWh6TE5XZnBQREdacXZqdjdQVWRpeGVUeU8ya9IBlAFBVV95cUxQX0JpMnZQRlBJQWZJZ25sak5ITjJHbnlvZVM3UndialoyTGV5Ny1IZjlJVkJ4NTR3YmttUVdZbnFRUE9DUS1ZT1Rna2ROM2dSc2RrcmdrZ2xnajlkZjFIU0swLVA4U2JiQXg5aUVJMHhDT0hWODNHMV90TnYxM085dXRKWndBbnlUZ2tSN0hyaDJLNnVV?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Reykjavík",
+          "url": "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+        }
+      ]
+    },
+    {
+      "id": "jp-tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "lat": 35.68,
+      "lng": 139.69,
+      "asOf": "2026-09-25",
+      "video": "jp-tokyo/2026-09-25/montage.mp4",
+      "poster": "jp-tokyo/2026-09-25/poster.jpg",
+      "durationS": 32.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.04,
+          "text": "Tokyo, capital of Japan, lies at the head of Tokyo Bay."
+        },
+        {
+          "start": 5.85,
+          "end": 10.7,
+          "text": "Typhoon Dujuan lashed Tokyo and the surrounding areas, killing four."
+        },
+        {
+          "start": 11.35,
+          "end": 15.95,
+          "text": "The typhoon triggered heavy rain and landslides across parts of Japan."
+        },
+        {
+          "start": 16.85,
+          "end": 21.95,
+          "text": "Japan braced for record rain as the powerful storm neared the coast."
+        },
+        {
+          "start": 22.35,
+          "end": 27.03,
+          "text": "The Bank of Japan has lifted interest rates to a thirty-one-year high."
+        },
+        {
+          "start": 27.85,
+          "end": 32.26,
+          "text": "Japan is also moving to tighten its rules for foreign residents."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Japan: Four dead as Typhoon Dujuan lashes Tokyo and surrounding areas",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ubFp5Ym5LZlJnZXUzWng1X2dCbDA1c1gxT2c0QXBTcFhPSkV1YnozNEZtS2hkeDV4SnQ2aGVUODZRVTl6YW9NYko2dVYzQzBWQmJ5dy1uN29zOGM?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Japan moves to tighten rules for foreigners, throwing futures into doubt",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2FhMDZXUlRhVnEzUi1oUW5aZURiNWpJSU9LSVhYVGRUUEQtcEtGSS0xTS1JLWtLVWxjaGtVR0MzVVpzUVFfMWhGdjZ1bUZHYVhla29ITmpKNjA2ajQwNnE0bjVZamd5MWpGamhrUUo5ZDgwaUhfWGRRaFBnQi1wckZhUHBqNkdLOVBCeEdiMTJ3cmFHd3hnc0RRLTZ1UlFBQW1EajZIUTMzVFJqUlJ1T2kzZXVFUdIBuwFBVV95cUxOUlllZjA4cGl2cWdweFhVSm5SaGU1VEhTdmZidldfRmQ4Vkk2SUlEM3ZpU3hFd1RRekVlQzhSRG11Y2UzZGFBM3JaUUhMalFWVE1CTkZLVWZ4eDkzWFJQQ3VwMEFmN1UyS2RIUlNrU20ySGJfR3F2dV9vdERXR1pWSDVFVG00blhHM0hhMFJNdzdRYXpNeFVxblJVYTdpMDJ2QnVpbEhlaC1FQUJPcHJsbzFKdnFaODJ0aFFN?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Japan braces for record rain as powerful typhoon nears east coast",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOSTl3YkxaTGZaa3puNFZhUm1KR2Z2dGpXLVZBWmx2T3h2dGVid2phaGU3RWR2WVU5MkV6a3hQN1puMDhBbkstRmJqcmhRTThwQXdKblJjbmg1S3M?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "At least four people killed in Japan as typhoon Dujuan triggers heavy rain, landslides",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWktjMDdkQnB1X0lhbng2UTd3US1GWldqQXllcnM1SVAxbmZjR0EwbEV6NjI1aVBWM1VGeWRDUGVncW9XbzA3M3Z6SHNMUkxzX0lxMjN6TW1ET2ZBRVhuVWlYekRDeEpEVTZnM2FKcHczTnFNZG5GSUpPMXA5RXVuTkNSeF9fN0xrbm81a2p6NnIwNUVLSEZDMXFYNDc1eHBrZWZqRGI3ZE1jXzdvblpKWVJzTQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "BOJ lifts rates to 31-year high, pivots towards preemptive inflation fight",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON2RfLXdWN0d6WEpRd3JFZ09UTGszUGZWQ0FKUnkzT2VCRE1jUmxMLXg4QlNqdERTc1hqaHRUY3lNNHRLZVRzbWJLQzg1bEdkRjl4eGZKRXVrTWoyUVBhVFRWT1RkV0F4azdlaVVKSWtaZXJfbnJEOThMVW5STEZZVDlWUV9UX25TMUkyanlKMlZSY2J4bHcyV3k2NGQ4UWxOdE5lNG9n?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "At least four killed as Typhoon Dujuan hits Japan",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeTFMUzhZa3ROWVllRWt6VDVWVVVPUlFaTmNNejV6dG44X2pOUFhITEttQ2dmUHdZcTdTTThQRkdXNjR6T1V1VnlYNzFRS2xjb1M2d21hY3BaVUc0WGhWVGkzVVBhQWsxZV9FeEVWU2RJbDlxV0xycDgxNTF6ZDdVOElxTEJSSWp1Zm9WOW4wbzJjM2c4U0wwSXVPZ3BwazExcUZLU084UExIZGU2TWfSAbMBQVVfeXFMT2JIWi1ycG9yY3J5VUlNd1hUVnEyeWtNV25YMzNGZVpNdzB2X19fcVhGeWVrcU5OVnNFazNpU2VXajJwMlJmOUtDVkQ4bjBGNUVMZGYzSGhfVkRKWU9YNFkwWUFVVFpLYUJOZmFkTmh3MUpzN2E5WU9tUG4tQmNzLTNhVGdYMC03LTNFNThRUERETk94VGVaNzdoSTRYM1NlMC1nU0Z0aUc5RjdVaVBXQ2FzRjA?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Watch: Timelapse shows typhoon barrelling towards Japan",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xMXNRbS1hem1KLTUtU2dkUzdmMHFfZFdrN1hqNEkxNWM4ME5Ga2wyc3V0cDJYUEhkT3JCTWlETi1NV3BUQ0FKdW82aWlyV1JaZjd4Wjc4N3M?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Investors react to BOJ raising interest rates to 31-year high",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzRGSGpsQnAxamJQZ3FIQ3liMTVXRjJQU0ZPTi16VmhpaXBpWTRldlR1U29id1BnR3ZjLU1HS2IzVFpnd0dJVjFXcVphc0FmQ1J4U3lLSlVmdHJOZ19wdElsVGZWa05XU1lfT1U5RndzOElxVDM2N1lkWnhfaXN5MUZXSGI3MV9tWFJnUWNuYmZNTXpKeWtxanJRcXFsWXZzOHU1Qm51b2dMcThMV3lzaDBmclZWdw?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Tokyo",
+          "url": "https://en.wikipedia.org/wiki/Tokyo"
+        }
+      ]
+    },
+    {
+      "id": "ke-nairobi",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "lat": -1.29,
+      "lng": 36.82,
+      "asOf": "2026-09-25",
+      "video": "ke-nairobi/2026-09-25/montage.mp4",
+      "poster": "ke-nairobi/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.55,
+          "text": "Nairobi, Kenya's capital, spreads across five and a half million people."
+        },
+        {
+          "start": 5.85,
+          "end": 11.24,
+          "text": "This fortnight, Nairobi wins the World Athletics Championships bid over London."
+        },
+        {
+          "start": 11.35,
+          "end": 16.38,
+          "text": "The World Athletics Championships are coming to Kenya, the BBC reports."
+        },
+        {
+          "start": 16.85,
+          "end": 21.47,
+          "text": "Kenyan mothers are using an AI chatbot to make childbirth safer."
+        },
+        {
+          "start": 22.35,
+          "end": 27.65,
+          "text": "The city is the only capital enclosing a national park within its boundaries."
+        },
+        {
+          "start": 27.85,
+          "end": 33,
+          "text": "Nairobi means place of cool waters, in the Maasai language."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "London misses out to Nairobi in World Athletics bid",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BTE5qT0xwU0tGWkhvb1JJeEJiTzQyaXZLdlRuZm43dGlFX0RpcG8xbmhja21aZ05uTnRWYWdPRlQ5NjF1TDZORFR2eTRVbTdnOWRGWDBTSzJGcjVjYUs4NTA1M2pyZHpiSVE?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "More than the Score | The World Athletics Championships come to Kenya",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0aXJBWTlydVNKcWdXRkpmSUYwRWZGTmRSbzg5TFdFTU9Wamx0NDZxTElMRHlWcU5yMG1fanlsMEVRMmlWcmJHeUwtaUZ3Zks5?oc=5"
+        },
+        {
+          "outlet": "NPR",
+          "title": "To prevent deaths in childbirth, Kenyan moms turn to an AI powered chatbot",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2VWMUhfNVV2QXNFWDExVW8yR05uZlhGYWFJc1JXZnJjMWVkMlhZdVMwWEI4aXdvWF8tT0Znei05RlFReFZCb2hvQTExcXdpb3U5N3JOajF1Ym02VnhDVnU2clV2cWEwZDVGMnBkdzFBQ2lxMk9JOVZqQjBTZjRZd3ExdWJCejIxOVdGbHI5a3NtcnBXTXRFUXhObllnWl9ockhtZTIxTGE?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Nairobi",
+          "url": "https://en.wikipedia.org/wiki/Nairobi"
+        }
+      ]
+    },
+    {
+      "id": "kr-seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "lat": 37.57,
+      "lng": 126.98,
+      "asOf": "2026-09-25",
+      "video": "kr-seoul/2026-09-25/montage.mp4",
+      "poster": "kr-seoul/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.07,
+          "text": "Seoul, South Korea's capital, holds more than nine million residents."
+        },
+        {
+          "start": 5.85,
+          "end": 11.27,
+          "text": "South Korea's president urges the United States to ease North Korea sanctions."
+        },
+        {
+          "start": 11.35,
+          "end": 16.4,
+          "text": "North Korea fired two suspected ballistic missiles off its east coast."
+        },
+        {
+          "start": 16.85,
+          "end": 21.85,
+          "text": "South Korea's Lee is to attend the UN General Assembly and visit Mexico."
+        },
+        {
+          "start": 22.35,
+          "end": 27.58,
+          "text": "The city's green space divides Seoul's mayor and the country's president."
+        },
+        {
+          "start": 27.85,
+          "end": 32.64,
+          "text": "South Korea has already solved the food waste problem troubling New York."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "New York has a food waste problem. South Korea has already solved it",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUkVWWWQwYU9PcXZvSkJxQUo5SUdhczMyX0w0VVBOeEdJd20tNjV0U3RRelpNcloxeXVJMFVaYU5CRFZuQ0VMTDVDcmNEWlFLRlI0VjBXWEhFZjRpRWVFclkxRG4xenhxb2ZveWFYSHFEcFVNNEV3eV9GRHVZMFZGeDJPQm1EalJteHNLYzY2VTN1V1RRWk1MWllRMFdycmpiYnh3UmRsQjR3SHFZT2pJLQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "South Korea's Lee to attend UN General Assembly, visit Mexico for Sheinbaum summit",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNlduT2NVRlFCNmF0aVBjcl9iMC1ldEE4Wl82cG00VTQ4a1VfeUwyeTQtNFhYWkRvaldKTGYxS3lWbzBuWnNYbGNwRTZ5ZlE4ZDlhZkw4cGxhUjJfZHlmUUtGM19BR3R1Z09wdVJ1R3VaYmhnTFNVczJnZ3QxQWlxT1lFdEptZzBndGhyY1BzdHRBb0thSDhINHc3eEl0ZkExRDM5T0dsMWNiTklKYnp2VVJ6WHVJaHE2N3Frc0pQTUcxZw?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "South Korea's Lee urges US to ease North Korea sanctions to freeze nuclear programs, NYT says",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWnQtNV93S3VlR0QyOWR2akZfM3o3OVVxaFdkSEdYMzFGMnZHYXQtRWNsLWNoY0x6c2cxOVdkdC00cElETGRNSUhUNmNRbGVVMENsS2pwUk42UGpWYmxFaHNic3RxVENNaFRScFlqNF9KT3lmU0tKdXZfSUhhemtFUHdDb01Mc3ZDcDBGeTFRQ0E2MlppSU82QXRWREtLUTJBanlPeERVcGhGeUU4MEJiNVVHLURSS25WTTFDaDBSakJsZkZDa0VScWhNOERsRm8y?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Seoul's green space is a battleground for its mayor and South Korea's president",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ2tKTDRYRU5RUkJpYldLQU03YzI2Vl93NkhORll6QnBmUEYtQTRpSWJOS25YTm5hRUVsME4wV3puVWYtQTl4eUJjUWVZMWRPc0VjTER1OGFLMG8tRVBjcmZ5M0VYZmZfU3JCZUhyTjZXbTJtel9EQ1IwSFRZalc4emtkb2VLYjJiRFJhaHA5aDlfclZmb3JwZmZZQ1BJbVNFTG1PaTZqTV9BNUNzb0pIQUdwV1oyUQ?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "​Urging Pivot on North Korea, South’s Leader Calls for Easing Sanctions",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTjU4UFd6TXlIOGl3TzNMM1dpWnM1cjdYMVRucWZLUV9yendTUXJlOHdFSkdhX2JyZE5OaW1oc1d3a0NtZ282aF9tbDFpT2VvTm1hZGg4NFJWaU5tX1NiSWhkUzUzQTE0d2NwVFhvN0J5S0tzc3BNMDR1dmxWME11by1JaFJkeE9Ea3ZLX2pqYzZpT2hockRDdHdCVXVORFI2TVMtTHFReXlXRVUtemJV?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "North Korea fires two suspected ballistic missiles off east coast within three hours",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTDFuRjFrR3lVU05OakZFWFlOdWFSTGsyelUxZmZrMkZvamthRHNRVkx0ZG95NnRIdXlWUFVhX2pfaUo2M1haY1B5RXNzVjJTRDZ3bXN6MUpYWUxiZThYbE9FWHBUemMtbC1SMHRQeWdBdC00YmxUWEZkXzljNm9PTnBCNS14WGFUOUFQRVZEN25feWZLNkRmcFN4M0pyM3pBZDF2cktnVGF6OXM?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Seoul",
+          "url": "https://en.wikipedia.org/wiki/Seoul"
+        }
+      ]
+    },
+    {
+      "id": "ma-marrakesh",
+      "name": "Marrakesh",
+      "country": "Morocco",
+      "lat": 31.63,
+      "lng": -8.01,
+      "asOf": "2026-09-25",
+      "video": "ma-marrakesh/2026-09-25/montage.mp4",
+      "poster": "ma-marrakesh/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.73,
+          "text": "Marrakesh lies west of the Atlas foothills, Morocco's fourth-largest city."
+        },
+        {
+          "start": 5.85,
+          "end": 11.06,
+          "text": "This week Moroccans voted in parliamentary elections, after a migrant rush."
+        },
+        {
+          "start": 11.35,
+          "end": 16.99,
+          "text": "Campaigning turned on Ceuta, football and Israel, the BBC reports."
+        },
+        {
+          "start": 17.85,
+          "end": 22.27,
+          "text": "Voting followed a rush of migrants towards the enclave of Ceuta."
+        },
+        {
+          "start": 22.35,
+          "end": 27.57,
+          "text": "The walled medina, a World Heritage site, holds many crowded souks."
+        },
+        {
+          "start": 27.85,
+          "end": 32.42,
+          "text": "Red walls and red sandstone earn it the nickname Ochre City."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Morocco election: How Ceuta, football and Israel have shaped the campaign",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LS09DRExRangzQ3NJTkpsblN1Q0dkRU9uZkZWTldva3haLTExa0tRWGFNVFl1N1I4Tm9MN0xINUM2aGhDWDVYb0trMTNoR0N2TmRzdkJIbVNSUW8?oc=5"
+        },
+        {
+          "outlet": "France 24",
+          "title": "Moroccans vote in parliamentary elections after migrant rush to Ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWHJGX3FzRWowUjh6eXdwR1ZZdEpLZnVsMVNXRHJxaEVNQUwtNzV4SkxvMGNSckpIWE5GMjl5WU5vS0xwdDU1TDM5ZFZIMjJqMmVXelNfSS12MW9qUE84ZDJ2dnp6ZUpTam1uakh0aXFiTFR6NldkcEM2Nk5kd1pXUUVBcGI5VVNnY2NsVUxTTU5LUWdOMVg4N1pwNlRvcl9BY2d2cGZBZmVFMWZkT0hSZEhYdw?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Marrakesh",
+          "url": "https://en.wikipedia.org/wiki/Marrakesh"
+        }
+      ]
+    },
+    {
+      "id": "mx-mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.43,
+      "lng": -99.13,
+      "asOf": "2026-09-25",
+      "video": "mx-mexico-city/2026-09-25/montage.mp4",
+      "poster": "mx-mexico-city/2026-09-25/poster.jpg",
+      "durationS": 35.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 7.05,
+          "text": "Mexico City lies in the Valley of Mexico, at 2,240 metres altitude."
+        },
+        {
+          "start": 7.85,
+          "end": 12.44,
+          "text": "This week the president says she is working towards a trade deal with Trump."
+        },
+        {
+          "start": 13.35,
+          "end": 18.46,
+          "text": "A fourth round of talks with Washington is postponed, October now possible."
+        },
+        {
+          "start": 18.85,
+          "end": 23.26,
+          "text": "The Bank of Mexico holds its interest rate at this month's decision."
+        },
+        {
+          "start": 23.35,
+          "end": 28.87,
+          "text": "Hurricane Polo intensifies off the Pacific coast, raising fears of landslides."
+        },
+        {
+          "start": 29.85,
+          "end": 35.11,
+          "text": "Mexico now restricts phones in schools, joining a growing list of countries."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Mexico's Sheinbaum says working towards a trade deal with Trump",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTBFWFlQREd2SEtkLWVWbVpXN3QwU3Z2T3R5dmFqYVhWaS1teklOWVhEM2F0bUllRThBbnVaVFo2a0l2RnJPMVBtUTRYQ3dvTnFpT0VSYk1ZYXJkNWNaNjk4TVIzWkk1dDFVWllDNUk1ZFZNOGQwNndkZjhvRTIxMDRyQ1JKZm5wb1E5dEwtUkNMRHVjLXJVc3pjSXl3ZUtDVkxmcVluQlh6cHY2VVZpSUVUcWUxRXo0QTA4a1U0N3Y1OTFueHc?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Mexico says fourth round of US trade talks postponed, October possible",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVi1NaWhSZFhlLXg3T1REMkxfbEp1WUNMVnFnVHpLNXF5azE4b3ltUWxBcFg2eTFtVDFwZkFZUGh1aTlWb1RneWIwVndEQnRhZzdwdDFoQU9Oc29KaXU2YTRwaFVsLWhVOGR5WFpTeWRSelB1UEZDdHN5Q1B2RUthSE95X050NmI1aFVmZWkxNFB5SEcwMHNhb3pSQTRFLVcwaUwzb3YxbFhxVVM5YTMzMVNhS3B3Z3hR?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Bank of Mexico holds interest rate, drops signal of prolonged pause",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT2JLVnpidGx0bUEtYWZtMHFpOUJxNTBnaGxxaDdlSXQtNXNKSVpwLW5FN2lGeG9BaDVDaTZhc0k1b0I3X0NObUNQVnlxQk54MEtUd1BPeVcwRzAxU0YtZU9ZMDI2R2ozZjlTYW5RbTgwQWptRUlKd3RrdFdza2dFbHNGR3VNbUVlUlVOVzhmMVpRR09tRmoxTkFlZzFfRklucUNOZTVaZVplSXc?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Trump’s New Favorite Neighbor: Mexico",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQXdsNFdZS0pwSEpDbGtxYUNOcl9IdV9ac1NYenVUOVFpS3BLeDU5Wmd5MnJjOTh4Y3BOeFR0Z01ld1Vkb0RoU19DeVo4ZjZ5c09sdHM1c19GTVVLWG40NW1wSjAteXpYZkVyM3FvUGxyM1RtS3NYOWc3YVNZSG1oUm9KU1ZRTEFjdWVn?oc=5"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Hurricane Polo fuels fears of landslides in Mexico as Nolo closes in on Hawaii",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVBvMElSMnJpaVVXUkdLMHl0Zm9Sc05iMC1udVgxRGlsTXN2QjJob1JJZm9ORXFVNTZhYm1zSjFRVV9tNDdreEoxLTJYbzJvcldKT1hmelYtSUJVdWpkc1VwMUNfNEpxcWpuUjZERmZRUE16SWpsNjVOU29PM2ZkaDFfTWo?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "Mexico Becomes Latest Country to Restrict Phones in Schools",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbkczQWZ2SVluRDBSZ3NILUVrblRmQTc2WTZobE1HdzUxUkM2TkFfbFJyOGluV3pSdzRWRloxWFZzcWNMU2hZX29ldDNWNzhGTzd3ZXJ4VHB5VHlyVHJsOC1CanlCUVVyMy1SMWdDVDZEVThLaW1Bd1hSWTZkczRXVW5QaTRsdGda?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Major hurricane Polo intensifies off Mexico's Pacific coast",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS2UyVWtwZEViSVRRNmY1cmota00xVmZzTmVtMFo0Rnl1MzY1aGRqQWhiNGY5eUxPSW1DWGlkNHBiRGpKZThUeVdoWktNQUU4R1E0Yjk0ZDR3ay1SN085ZnVvRlV5RU5BR3hsU3N4ZTJLRW1OZnNIOURlT0RJWkpmQmpJaTZwTkJIZHRWcTBsdDU1U0dkRHFRVHZ0RlVZbVhhWjVDazJFa0M4TG1ULS13U1VncGwzeVA1WkpRWVU1RHo?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Mexico beach towns brace for storms as Polo churns off the coast",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPejh1TGpPbEF1a2RwQk1hMmdJaXMxMEx5aFhkWFB4SldrMEJCSTJKOC14VHd4LThPU1p6Y0gzc3N6NDladDBIQ1ZLRkFxZmRmaEtGU3pfdFNhMzhjTnNIYXhDcm5WbF9meElOaEJXaThoY1NSQmlPSTV1U2tPLU00NTZqNXljUVN1eEhmWVZjcjR6TlJlWHJ1UW16bS1TNWZxWjREeEYxS195eEp3S01PSjJWYw?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Mexico City",
+          "url": "https://en.wikipedia.org/wiki/Mexico_City"
+        }
+      ]
+    },
+    {
+      "id": "ng-lagos",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "lat": 6.52,
+      "lng": 3.38,
+      "asOf": "2026-09-25",
+      "video": "ng-lagos/2026-09-25/montage.mp4",
+      "poster": "ng-lagos/2026-09-25/poster.jpg",
+      "durationS": 34.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 6.6,
+          "text": "Lagos, Africa's largest city, spreads across lagoon, creeks and barrier islands."
+        },
+        {
+          "start": 6.85,
+          "end": 11.77,
+          "text": "This fortnight, a refinery share sale gripped the country's investors."
+        },
+        {
+          "start": 12.35,
+          "end": 16.76,
+          "text": "The Dangote refinery is the city's single largest employer."
+        },
+        {
+          "start": 16.85,
+          "end": 22.38,
+          "text": "Rising fuel prices are reviving cost-of-living pressure in Nigeria, reports say."
+        },
+        {
+          "start": 23.35,
+          "end": 28.59,
+          "text": "Nigeria has launched a three-hundred-million-dollar fund for off-grid power."
+        },
+        {
+          "start": 28.85,
+          "end": 34.11,
+          "text": "Markets, music studios and galleries carry the rhythm of this megacity."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "'Call Dangote, we need a board meeting': Nigerian refinery IPO sparks meme frenzy",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWkJabTBqQWE5ek9HUzQyREFzYXMwd2pnUXZrSktOZXoxWVNETC1xaWNqcnlMd1lENjNZaG5Vd1hkZDlSVVRRbTVWY0VhckRzM0lTZnlBYjZxeVdkMm9kSWJRd1ltekVqZFUwQjljMGdJSU9YRWpFVkhIaC0xN3RtaDU5TDdocUdOMjlkZHNmTEVxakxub2NjUjZmMlFKMXhqSnd3VFJrRmhReXI3d0o1aUJsV3pHSXJ5clhwMnJUR3BLZw?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Nigeria launches $300 million clean energy fund to scale off-grid power access",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSElCNmh3XzNFeDRpdE44VlhKN1hmMDlqSmVtc3BhZVBwNzdhVldMUF90ZTBBQkpYSnJLRWFSbGdwRlJkM0FTODVoS09XbEEtUVU5aENfTDlhcFF0djRpR0ZodmMwbF9KaGdQUlBkM3UwLU5QVkZQX3I1b01aeXY1akVtN2VHNERiWXRObk56aklPdUJOblRqTVlPb1JYMU5EempRR0pYYlJnUnN6YzRTZElVb2lWRXMwWFR1TWNJWk01bW91?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Rising fuel prices revive cost-of-living pressure in Nigeria ahead of 2027 election",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1lWb3BrckwtWTl5S3FaUXVDNDY5MHhORWVoVjI0QVhaQnBJaDNSRXdoUjM0M21TNHBWTm9LbkpSLVJsUTBwYzZMT3JiQTJjaUhtcVV2YWdXZEJLREZuRU1tZnhFclZxMm9MSWVIeWxsQkVaUTJXUWhabjZOMWJ4MktEd2R0S0VEOEVzbDltZWxqODhRN0hpcmpUdDA4eHotQVJQN1V0aEJaT1Q2czZlR2s4RGxyV0J4S0xCMjd3X1VFYVVzQmVMSw?oc=5"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Dangote IPO is a test for African capitalism",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdUhQRGRkVlpoOUpkM2dPYnNwdWlqT1ZDV3pPelAzTVdEQ1l6aWsxNndTbmVqQUYzYVlFb09PQUdIdFBzOUtGVnUweFBsVnl5WklnQy01b0NTazJjR1RPckRsZkdxNGZtU1d1MV93b1NOblh1QmV0VURBLTNsU3o1Y2lTbmQ?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "'This is our company': Nigerians show off oil wealth after share-buying frenzy",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05dmYwel9OTTdFTUFYZTU3UUFXYjNCOG54WWRlNElSbnljVExpd1JBR0RybTFteVo0VklEY2t6MjktaE81OEk4dFN3UFFMWHBNT2t3emZjaHJ0UFU?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Lagos",
+          "url": "https://en.wikipedia.org/wiki/Lagos"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of Lagos",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_Lagos"
+        }
+      ]
+    },
+    {
+      "id": "nz-auckland",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "lat": -36.85,
+      "lng": 174.76,
+      "asOf": "2026-09-25",
+      "video": "nz-auckland/2026-09-25/montage.mp4",
+      "poster": "nz-auckland/2026-09-25/poster.jpg",
+      "durationS": 29.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 4.76,
+          "text": "Auckland sits on a narrow isthmus between two separate harbours."
+        },
+        {
+          "start": 4.85,
+          "end": 9.27,
+          "text": "Fifty-three volcanic centres shape the landscape around the city."
+        },
+        {
+          "start": 9.35,
+          "end": 13.98,
+          "text": "Rainforest covers the surrounding hills, west and south-east of town."
+        },
+        {
+          "start": 14.85,
+          "end": 18.98,
+          "text": "Forty-three percent of residents here were born overseas."
+        },
+        {
+          "start": 19.35,
+          "end": 23.76,
+          "text": "The city holds the world's largest ethnic Polynesian population."
+        },
+        {
+          "start": 23.85,
+          "end": 28.55,
+          "text": "Late September evenings close over the Waitematā and its harbour bridge."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Wikipedia",
+          "title": "Auckland",
+          "url": "https://en.wikipedia.org/wiki/Auckland"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of Auckland",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_Auckland"
+        }
+      ]
+    },
+    {
+      "id": "pe-lima",
+      "name": "Lima",
+      "country": "Peru",
+      "lat": -12.05,
+      "lng": -77.04,
+      "asOf": "2026-09-25",
+      "video": "pe-lima/2026-09-25/montage.mp4",
+      "poster": "pe-lima/2026-09-25/poster.jpg",
+      "durationS": 30.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.09,
+          "text": "Lima spreads across a coastal desert, overlooking the Pacific Ocean."
+        },
+        {
+          "start": 5.85,
+          "end": 10.29,
+          "text": "Around ten million people live in Peru's capital and largest city."
+        },
+        {
+          "start": 10.35,
+          "end": 14.75,
+          "text": "The city sits in the valleys of three rivers crossing desert."
+        },
+        {
+          "start": 14.85,
+          "end": 19.97,
+          "text": "Temples of an ancient coastal culture are still preserved across the city."
+        },
+        {
+          "start": 20.35,
+          "end": 25.56,
+          "text": "From May to October, coastal moisture feeds green growth on the hills."
+        },
+        {
+          "start": 25.85,
+          "end": 30.26,
+          "text": "The city keeps its port and airport in neighbouring Callao."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Wikipedia",
+          "title": "Lima",
+          "url": "https://en.wikipedia.org/wiki/Lima"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Lima culture",
+          "url": "https://en.wikipedia.org/wiki/Lima_culture"
+        }
+      ]
+    },
+    {
+      "id": "ru-moscow",
+      "name": "Moscow",
+      "country": "Russia",
+      "lat": 55.76,
+      "lng": 37.62,
+      "asOf": "2026-09-25",
+      "video": "ru-moscow/2026-09-25/montage.mp4",
+      "poster": "ru-moscow/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.53,
+          "text": "Moscow, Russia's capital, stands on the Moskva River in Central Russia."
+        },
+        {
+          "start": 5.85,
+          "end": 10.31,
+          "text": "This week Ukraine fired hundreds of drones at the city, the mayor says."
+        },
+        {
+          "start": 11.35,
+          "end": 16.2,
+          "text": "Reports describe the largest such attack, coming on the final election day."
+        },
+        {
+          "start": 16.85,
+          "end": 21.25,
+          "text": "Ukraine fired over a thousand drones at Russia that day, reports say."
+        },
+        {
+          "start": 21.35,
+          "end": 27.66,
+          "text": "Moscow plans tax rises from 2027 to fund military spending, Reuters reports."
+        },
+        {
+          "start": 27.85,
+          "end": 32.8,
+          "text": "Russia's deficit will stay within three percent of output, its minister says."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Russia plans array of tax hikes in 2027-29 to fund military spending",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNHZybjA2emc3M2RUZ1VZVGNGMWx4cVNON1d3aFc5dk5OdGtzR3RvNTFnOEVLR053Ql8zSUEzTzZsMEY3RzhrenhHa2NMOWtSV0JsNk5FWnZGVXNTNEQ2Z0VuMm5yeHBkaHZpVE1kVllTUWtoQ3dhUldrMUpjN2cydGVURUZzaDVqWDJPN1FZd1F0VEhoY055NGk4b28zZV82QmtPb1R0RQ?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YLTYydnNDeFVheUM5N05KaFczQVRzVjdmY3owNW1oZDN0cS1kSWNUbW1KZ0NicGF0YXVfcU9ybjF3SzU4OU5nc3hjcXNGZzJnbFRPajZhYzhwMGc?oc=5"
+        },
+        {
+          "outlet": "DW",
+          "title": "Record Ukrainian attack leaves Moscow ablaze on election day",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdGs3aHg1cnFFalRxRFlKbFlvZ3htYm5vZUR1NDN2UUM2RGtYTU5ZVWIybHpTb0tJeG54b2VXdWQ2QlhLbnYwbC1WSG5laFFMb2JkVXAtaS1pTy10azlyYTJBSjM4SmpEdjJIUU1DSTdkb2p6S1Q3aHdjOTdDcEJISm1HSndORUQybnZpQzFKb2Jhemp3N2s3eUhhNDRfQQ?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Ukraine targets Moscow with hundreds of drones on final day of Russian election",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaE1iYndrT041VmNqVEh2bEg5Vk1DaVpOeGUzNTBrWlNiRFFTMVoyUU5GdTRxMllGZHhrXzdNTjdlUTAtam9DazJ1Q3JRc1BadnNyNm44NURxc1BTYm9jTU5JQncxQ3RPMDNfM3FzM0ZBNjlubGt3NzNyZ3NVOGtwVUhDR3hSbDJpMTRCNzR1cDAzZm5FNklPS2tla3ZzZ3F3UEdxa1ZPSTBWSVJERzNDVTRmQnUwZ0V6X3ZKRnRSVnFCWnhBMTV6MkoybGd0VTg?oc=5"
+        },
+        {
+          "outlet": "NPR",
+          "title": "Ukraine fires over 1,000 drones at Russia, including hundreds launched at Moscow",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3dySGlFT3ljamJRcXZPaHhVcWxDaGpZTDVmU0VVOXprdUhFamhhMjFxWWdDb1BqVnJneE9EMkUxbTdqcE4xMW9EV0tRTzRkRGxMNmNESTJ4b2Nzbm5TeEF0b2hqSVdPXzlxQ3RFUGhRclZLOS1xYlp1VnRzSFRPU0FVSEdrWGRDQ3c?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Russia will have budget deficit not exceeding 3% of GDP in 2026, Finance Minister says",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ3lMRVU5WWtoUkVvV2d3NWFYNG0wOUJ6UVgyZkp3M2NtdFdiVmV4NHdzVzVFQzlSc1ZhZXllVDZnQXJyaDZiX3lzNXBqOHVMaFl5UHNYWHI5dDZ3MDZvcWJaLUhDTzRMR1I2RDB5Qms4LXppVVhUeTlYSkV3ZUxDeHR2OVJLMGFHSERqcndJQlZkYnNNODRLb3drOE1QVGtPcG5CTnl3TWdHdVBhTjFuaWczdmJEb3IzMS0yenljdnk?oc=5"
+        },
+        {
+          "outlet": "Financial Times",
+          "title": "Ukraine hits Moscow with ‘largest ever’ drone attack",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLTlsM0tXcndOS042dmZrNTJzUV8yNWtxSng2QXJ1US1Tdy1menI4N1VhX05wNWo3enZOcUV5ZzZZV2w5TlFUSnFwai15MzJoQmZIVk1GYUh5Z0MxazljVm1hc2hrQ1BUWUNiRnMwMkZsVmk0V1N6UjZSYnFWWldSd0w1a18?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Moscow",
+          "url": "https://en.wikipedia.org/wiki/Moscow"
+        }
+      ]
+    },
+    {
+      "id": "th-bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "lat": 13.76,
+      "lng": 100.5,
+      "asOf": "2026-09-25",
+      "video": "th-bangkok/2026-09-25/montage.mp4",
+      "poster": "th-bangkok/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.65,
+          "text": "Bangkok spreads across the Chao Phraya delta, home to nine million."
+        },
+        {
+          "start": 5.85,
+          "end": 10.25,
+          "text": "The capital holds a quarter of Thailand's people in its region."
+        },
+        {
+          "start": 10.35,
+          "end": 15.95,
+          "text": "The Grand Palace and Buddhist temples are among the city's cultural landmarks."
+        },
+        {
+          "start": 16.85,
+          "end": 21.61,
+          "text": "Street life fills the lanes, a habit older than the skyline."
+        },
+        {
+          "start": 22.35,
+          "end": 26.82,
+          "text": "Ten rail lines carry commuters above roads still thick with traffic."
+        },
+        {
+          "start": 27.85,
+          "end": 32.94,
+          "text": "This week, a Thai teenager won America's Got Talent, a first."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "BBC",
+          "title": "Teen rocker Nene Royal becomes first Thai to win America's Got Talent",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MbEVoZEcxZkJiTl92cjhsWW9ERVV3dWxUbklKUjVrbks0YjNfSGVnSElTb2hiU0xpeFdUYWxiZldEbUE2Y24xTEJUUEJiVTVtZVJVLW1CT2o0QlU?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Bangkok",
+          "url": "https://en.wikipedia.org/wiki/Bangkok"
+        }
+      ]
+    },
+    {
+      "id": "tr-istanbul",
+      "name": "Istanbul",
+      "country": "Turkey",
+      "lat": 41.01,
+      "lng": 28.98,
+      "asOf": "2026-09-25",
+      "video": "tr-istanbul/2026-09-25/montage.mp4",
+      "poster": "tr-istanbul/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 4.97,
+          "text": "Istanbul straddles the Bosphorus, one of the world's busiest waterways."
+        },
+        {
+          "start": 5.85,
+          "end": 10.34,
+          "text": "Turkey has stepped in to support markets after a fund liquidity crunch."
+        },
+        {
+          "start": 11.35,
+          "end": 16.18,
+          "text": "The Istanbul exchange is to remove over a quarter of its main index."
+        },
+        {
+          "start": 16.85,
+          "end": 22.11,
+          "text": "Officials say nearly half a million investors are affected by fund liquidations."
+        },
+        {
+          "start": 22.35,
+          "end": 27.06,
+          "text": "Turkey revoked the licence of an Iranian bank operating in Istanbul."
+        },
+        {
+          "start": 27.85,
+          "end": 32.42,
+          "text": "Imperial mosques and palaces still line the hills of this megacity."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Turkey says nearly half a million investors affected by funds liquidation",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOXzJDY2RHaWsySGVzOW9TQkJnWjdBWXdqSkhGbkU3bmM0ZERlMDNsekxaM2tlNHFYWUlycGRJS1dYXzB1OGFlWF9ZZzdSTDRpMmNPQ2FVM0dMd2Jxand6eFA1b3hUcVRCLWJVT1BWU3pEMjAwbWpOQjFZU3hiZUppZ3M4Smo3a2VhbWRxdWtkci1yOGF2SFZwZmNnMjBsazFwZ1VPZEZPc3JGX0Jidm1oX0thMkk1Z0xnUlh5eVlxbW0zZw?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Istanbul stock exchange to remove over a quarter of main index, as regulators tackle liquidity crisis",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNlpBOWItUmYySnY3S2NraDdlRzdNZGRyR3VLQ1I5ZDlyLUl6YTVveFhtTHVRdEU4ZlE3QnFkQmZmQXE2NEVDRlIwNXcwX0hFRVh2YThoQW1RRWpiQXZtYTdob1ZQaDU5VUFWRGJkVk1sb3o3T3pJUHVRTHBLVmw3V0hJZDcyLU9naDFmMzNRcWRSVXdVS3BYLURyekF0bVRsaUY0M0p2WWVPTkhUaGVHWmd6MEVRU3VrRFZ0X2FzWFlTWnFl?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Turkey mandates Isbank and Ziraat to liquidate $18.3 billion funds",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPc0FfdU9KUmZlTVU3eE1pLVFwX2pZV1pVZkJNcnJxWkp3WFRpNWgxcTIzcHAzR1h5UEttY2ZtaTNKVTRfUnlKeWpDNEFqaE5EYlBCQnZoeWlNakMzSEJWRlBrNWlRNlRmTlNRbFMtRExCd3BpclJuaWRtTUJKdDVRT21KQ1JHU2RDczU2LThzTmI5VUpyYk5oZlM4VzhkTGgtZGE0WnR5eUVzbVhfMzNBQQ?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Turkey steps in to support markets after fund liquidity crunch sparks selloff",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTi0wZUhFaDF1M2xqZ1llb2xMRUdwV1ZzcTFXLWlJenctU2FOTUVNVlZMZmNCejN5VWw3ckFlelFkalYybU1jTUJkNVByUVREZnFxSzhQUE5UUThWbGZTU240bjIzQTdPZGJ0M3ZWNUgxTEgxMjUyM0toMXFtREh2cTUwZVZmeFAxWmd2ek44bTktaDJDX0h3SEJDQ1pkal9WZGxkYXNTeUctMGRIajRydE9tU0FibmxNcmZQdmNZaE5TUlk?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Turkiye revokes operating licence of Iran’s Bank Mellat in Istanbul",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMGpDOHl4UjZUb2cyb0hubXQySVdjbVZjTWZrVGVkQVJIN3BubGpZbUphekREMWJpRFl1T0otMU9RdDUzb1M3ZXVDWVZDLVhHMVluT0I5ZjVMdlpBZ0FaM08xOENtblBGWmRYaGFYN19MQ1hob1c3ZEhHa0FKakdHdDNlMEhULV9mdVVPNUlCZ1ZscDBWb1FPVVVuYTNWOGfSAaQBQVVfeXFMUHprUFZqa3JWenVaZFFfcEl6SzMyYVYxMjh5bmlQV3Y0TmNvcTNlUFRaNTMwbWQzYnNKTkhWTHZuY19XaVlTWXJZQl90SkRFMmlpQUh1YjFfZVphRGZmQmhaUjJIQnZZc1NLbHRlUzlDc0k4UWU4Ti1tT09ldENSUlpuRjBsSXpmQXVnbExMRGxLcU9pTFVwOTJHcHluak1qSGNJVVk?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "Turkey revokes operating license of Iran's Mellat Bank amid US measures",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb1hTU1NHcEl4TWwzc0E2THYwcmxSMS05TnFsT2w4ZHVpQjhvX0NxT2dLb2RpRGtIczNadkVFczZUSGJ0VGJJdEpvMzlnZ3F4aGtBMldjZUpMZ2p4cWFOZ2VzSHhSLUhsclg4aXYwT2dMRkMxWWFjbnBBQ24tUG9EQk02UWlrczRVODFrU2hIbmZRZm9ESDU2TnJwb1FnMGw4OTU4OTllOFl3RlhON3JHTmJPVnYwNVYxT1FQaFZn?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Istanbul",
+          "url": "https://en.wikipedia.org/wiki/Istanbul"
+        }
+      ]
+    },
+    {
+      "id": "us-new-york",
+      "name": "New York",
+      "country": "United States",
+      "lat": 40.71,
+      "lng": -74.01,
+      "asOf": "2026-09-25",
+      "video": "us-new-york/2026-09-25/montage.mp4",
+      "poster": "us-new-york/2026-09-25/poster.jpg",
+      "durationS": 33.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.42,
+          "text": "New York, the most populous city in the United States, on its harbour."
+        },
+        {
+          "start": 5.85,
+          "end": 11.26,
+          "text": "The city hosts the headquarters of the United Nations and international diplomacy."
+        },
+        {
+          "start": 11.35,
+          "end": 16.96,
+          "text": "At the U.N., President Trump set out a winner-takes-all vision of American power."
+        },
+        {
+          "start": 17.85,
+          "end": 22.58,
+          "text": "A summit with Gulf states, and a brief visit by Israel's prime minister, followed."
+        },
+        {
+          "start": 23.35,
+          "end": 27.75,
+          "text": "Eight hundred languages are spoken across the city's five boroughs."
+        },
+        {
+          "start": 27.85,
+          "end": 32.31,
+          "text": "By late September the city settles into early autumn light."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Netanyahu's fleeting visit to New York mirrors strained US ties",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0dMX1dTN0FUMTNHM3B6Yi0zelh2NDZKR2toOTJlYmZlRktKVW91TVV2YlJ2M1E4Qy1BTmlGb2Y4NUJURWstS1J0OEhaRWg0LWt6eHBDV21hYTNfS2F3M3BUNDkzQVAwV3g1WUJxWVZZa0xfRWlUeXptSzNNTUxZenBaMEtYcXYwU1pQck1qT2NZcmw3bTFWVkJhV3lMM2w0SzNaZVMtZWFFdHY4U1o2V1UwWQ?oc=5"
+        },
+        {
+          "outlet": "The New York Times",
+          "title": "At the U.N., Trump Lays Out a Winner-Takes-All Vision of U.S. Power",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMC14enRnZ3pSTGZfVXJiNU5CNXdHTVFSdTMwdDE2U3otb1Y3YUJhT1F5TDBFWW9CUlA1MmhNSng3bjNUZGs3em9wbUZYclByTGF0cktEdkZpWVZVeHR1dVJsajlHbjQ4YlF3YXhQcTVJUXBaUml1ajgtNnlNQnM3dFVHeFMwWjNIRmx1SzhSTE5wemJoREhz?oc=5"
+        },
+        {
+          "outlet": "Al Jazeera",
+          "title": "Trump-GCC Summit in New York: What does each side want?",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLW5mT1QtRUZSSEtnV0J1Z2c1cmZCcC1vUVB0a04xcVlYbU16N25rZWlwWjJlVkVUUm91RGpEYkhLOENfVk92UFRoOUxXaWVOWTZmUjd1RXQ1ck9KbmN0T2dYV25GMTF2bEt4QVNYWjJQYkFOWnJ3OGxIMndXaGs3bC1ZWW9hTVZhQ1dETnhMdEVzamlKRGhhVndn0gGfAUFVX3lxTE5zTUwyWXRHUWhrQy1OMGJBWnJjZU5reDYtemdBaXFOcnFDcFNoTWp4Ym5ZdHgycjdtREVVT1BVemlQZllaU3ZfX2VBNXhjZFFnVlZhcjNkYTFkV21maHBMX0h2YThyQ2lYNmtIWFNNbVZ6dlpLNks2bzZrQjY0ZVR6ckZIYThFSlFoZEZBWFd1eUgxZE1DMEdnUF93U1BWRQ?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "New York City",
+          "url": "https://en.wikipedia.org/wiki/New_York_City"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Culture of New York City",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_New_York_City"
+        }
+      ]
+    },
+    {
+      "id": "za-cape-town",
+      "name": "Cape Town",
+      "country": "South Africa",
+      "lat": -33.92,
+      "lng": 18.42,
+      "asOf": "2026-09-25",
+      "video": "za-cape-town/2026-09-25/montage.mp4",
+      "poster": "za-cape-town/2026-09-25/poster.jpg",
+      "durationS": 30.5,
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 5.01,
+          "text": "Cape Town stands on the shore of Table Bay, beside its harbour."
+        },
+        {
+          "start": 5.85,
+          "end": 10.79,
+          "text": "South Africans have gathered to run, mourn and demand change."
+        },
+        {
+          "start": 11.35,
+          "end": 15.71,
+          "text": "Nine women have been murdered in South Africa since July."
+        },
+        {
+          "start": 15.85,
+          "end": 19.88,
+          "text": "Police have arrested three people over one woman's death."
+        },
+        {
+          "start": 20.35,
+          "end": 25.38,
+          "text": "A mass sardine die-off sets penguins against fishers along this coast."
+        },
+        {
+          "start": 25.85,
+          "end": 30.26,
+          "text": "A city plan to cage baboons has prompted public outcry."
+        }
+      ],
+      "sources": [
+        {
+          "outlet": "Reuters",
+          "title": "Cape Town's plan to cage baboons sparks outcry",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaFZJZ3JhU3FuaUR4dlBGMTFxYlBXV1MwZnNWNHZQaVpUR01ZOTZPQzNydXZNV0FIaDRjcWxVVVpkd0pSQ1VKUV9DSW5sU2piMDZRbFhXQUtneUVIMjlfbzlYWkg5QVduTXJFRk5mRHMxcTdOXzNLcWFWblhEbjNoT0F1UW4xSjNQTFJsa1lldFE2RjBzbExZOWpxeC16b3JK?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "South African police arrest three people over woman's death after spate of killings",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPaExhcEtkSVlpd0lBSFFocHNlRTYwNkhJSnBtYXdraDJQbHVvaUJMbkEySDJRQ05pZU1aUVF5QjdqZWtFOVlmZHhOcnZOWl9hZ0JsSHdMWGIyREFPTkFCZjNqV3k0NjdMOWw0bFpuOGVHRmtYSEdpbzdWampmSkEtaEphZU1oWU41cGxFLUcxaE05emFIRkgzWkswM2FlR0lfcDFNNW1fZTlrSnlDZ3I0d0tEMWpPUGFwb1FoYTQzQ3kwN2NtV0I4?oc=5"
+        },
+        {
+          "outlet": "Reuters",
+          "title": "After deaths of nine women, South Africans gather to run, mourn and demand change",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUEpTSXZWdWs5T0FDYlc3VTZnSjctUXdkdzd4MnRoclAxSWJLRTJhYWFBUWowQzdKbHRuZGhvSmRDMG1INEtVTEdsakprS1ZHRlBaNzdWWFVneUFJX0dsVE5nWVVJNnI0dkpQQzFIMDVOZkFjbW5vVC1KcnAtLXRSM0xSdTFXVGtzMjJ0SGRmV3BwSW1DdFpETk8yZkJJcHlYRHREOVF6bFA3aVRRcndYS1Q5M1I5aXFyOXc?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Mass sardine die-off pits survival of South Africa’s penguins against fishers’ livelihoods",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdGtBNUw5TnlPd0VRaTY0R1o2VkJGWnVWSUJjcnBBQU9iREF1NHZLaWwydXJhbE1FZlgtcldPOW5vODVZeWdiMkh1dTdYOFV4S0VGUld1MHJIbVdwMGQ0MHBqZFlTaFBibnMwODFnNUZnV2g5T2lUdjNreWI0U01YTEszdlp1SE9RZUdMNHBMZndHc244NHIzeVhITTU3N0pfUi16U0JlSTN2U3VPVWFVLUFFN0YxbDAzejNCLWItbmRocjlHWGtmOWdINjZBZldpclgzbkRLWQ?oc=5"
+        },
+        {
+          "outlet": "BBC",
+          "title": "'Enough is enough': Women protest after string of murders near Johannesburg",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ROVp4MVlaeTFabmh1NDBHbFNBZWZONUZRZVpobjUtMnFMRGY2TUhWMGlCendxNWVSSkhuVWVMRkdWWTBvLU4xYUc5S0t5el80OHNJdkl0ZVI?oc=5"
+        },
+        {
+          "outlet": "The Guardian",
+          "title": "Nine women in South Africa have been murdered since July. We are being told to be vigilant – but where are the warnings to men? | Nolethu Ndude",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNaDFGR0tPVllfY1VjdmptUlRRTTZPb1pvZno4amdIajl1WV9yRnlCVUR4bjNBdkhMQ204T0lRSTR6MElOaEpiMFhwYVNMbHd1RmZ5b1J5eWZBUmJac2RLdXVvVEpxcGJrc3oyc0FteHYwV2F0aG53LVVkQU5zU3l4cmJYbHRTOE10XzEyNFpydHdKVjZCb1VFQlpMMUg5WWRVZWFIbk9BaG1YcllVWkZ2WG9JS2l2My1ZLUxTdGtQRDM3bjVaTWt6enZ0S2JUTDRSWGxfWHlOdko0THgxSUNlTW9TUTVRRDZXNF9fWlg4QTZFUXRRY254VWpWT1ZlN1dwcVRqTFZOMl8ydkhVLWkw?oc=5"
+        },
+        {
+          "outlet": "Wikipedia",
+          "title": "Cape Town",
+          "url": "https://en.wikipedia.org/wiki/Cape_Town"
+        }
+      ]
+    }
+  ]
+}

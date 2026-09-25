@@ -1,0 +1,164 @@
+:root {
+  --ocean: #0f0f0e;
+  --paper: #ffffff;
+  --ink: #111110;
+  --ink-muted: #6c6b66;
+  --rule: #ebebe8;
+  --on-dark: #efeee9;
+  --on-dark-muted: rgba(239, 238, 233, 0.62);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --gutter: 24px;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; height: 100%; overflow: hidden; background: var(--ocean);
+  -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent;
+}
+body {
+  font: 16px/1.5 "Instrument Sans", system-ui, sans-serif; letter-spacing: -0.005em;
+  color: var(--on-dark);
+}
+button { font: inherit; letter-spacing: inherit; }
+
+#stage {
+  position: fixed; inset: 0; width: 100%; height: 100%; display: block; z-index: 1;
+  touch-action: none; opacity: 0; transition: opacity 0.9s var(--ease);
+}
+#stage.is-ready { opacity: 1; }
+.videos video {
+  position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;
+  pointer-events: none;
+}
+/* Without WebGL the videos are shown directly above the 2D map. */
+.no-gl .videos video { z-index: 2; opacity: 0; transition: opacity 0.6s var(--ease); }
+.no-gl .videos video.is-on { opacity: 1; }
+
+.scrim {
+  position: fixed; left: 0; right: 0; bottom: 0; height: 50vh; z-index: 3; pointer-events: none;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.28) 45%, transparent);
+  opacity: 0; transition: opacity 0.6s var(--ease);
+}
+.is-playing .scrim { opacity: 1; }
+
+/* Card */
+.card {
+  position: fixed; z-index: 6; left: 50%; top: 50%;
+  width: min(384px, calc(100vw - 32px));
+  padding: 32px;
+  background: var(--paper); color: var(--ink);
+  border-radius: 16px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 24px 64px -24px rgba(0, 0, 0, 0.7);
+  transform: translate(-50%, -50%);
+  transition: opacity 0.4s var(--ease), transform 0.5s var(--ease), visibility 0s;
+  outline: none;
+}
+.card.is-min {
+  opacity: 0; visibility: hidden; pointer-events: none;
+  transform: translate(-50%, calc(-50% + 8px)) scale(0.97);
+  transition: opacity 0.25s var(--ease), transform 0.35s var(--ease), visibility 0s 0.35s;
+}
+.card p { margin: 0; }
+.intro { font-size: 17px; line-height: 1.45; letter-spacing: -0.012em; }
+.now {
+  margin-top: 24px !important; padding: 16px 0;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  font-size: 15px;
+}
+.prev { margin-top: 24px; font-size: 15px; line-height: 1.6; }
+.label { display: block; font-size: 13px; color: var(--ink-muted); margin-bottom: 4px; }
+.card ul { list-style: none; margin: 0; padding: 0; }
+.card li::before { content: "–"; color: #b3b2ad; margin-right: 10px; }
+.card nav { display: flex; gap: 24px; margin-top: 24px; font-size: 15px; }
+.card a {
+  color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px;
+  text-underline-offset: 3px; text-decoration-color: rgba(17, 17, 16, 0.28);
+  transition: text-decoration-color 0.2s;
+}
+.card a:hover { text-decoration-color: rgba(17, 17, 16, 0.9); }
+.card a:focus-visible { outline: 1px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+
+/* Entry chip */
+.chip {
+  position: fixed; z-index: 6; top: var(--gutter); left: var(--gutter);
+  padding: 8px 14px; border: 0; border-radius: 10px;
+  background: var(--paper); color: var(--ink); font-size: 14px; font-weight: 500; line-height: 1.2;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 8px 24px -12px rgba(0, 0, 0, 0.7);
+  cursor: pointer; opacity: 0; visibility: hidden; transform: translateY(-4px);
+  transition: opacity 0.3s var(--ease), transform 0.4s var(--ease), visibility 0s 0.4s;
+}
+.chip.is-on { opacity: 1; visibility: visible; transform: none; transition-delay: 0.1s, 0.1s, 0s; }
+.chip:hover { background: #f3f3f1; }
+.chip:focus-visible, .ctl:focus-visible { outline: 1px solid var(--on-dark); outline-offset: 3px; }
+
+/* Video controls */
+.controls {
+  position: fixed; z-index: 5; top: var(--gutter); right: var(--gutter);
+  display: flex; gap: 8px;
+  opacity: 0; visibility: hidden; transition: opacity 0.4s var(--ease), visibility 0s 0.4s;
+}
+.is-playing .controls { opacity: 1; visibility: visible; transition-delay: 0s; }
+.ctl {
+  padding: 7px 12px; border-radius: 10px; cursor: pointer;
+  font-size: 13px; line-height: 1.2; color: var(--on-dark);
+  background: rgba(15, 15, 14, 0.42); border: 1px solid rgba(239, 238, 233, 0.16);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  transition: background 0.2s, border-color 0.2s;
+}
+.ctl:hover { background: rgba(15, 15, 14, 0.62); border-color: rgba(239, 238, 233, 0.32); }
+
+/* Caption panel */
+.panel {
+  position: fixed; z-index: 4; left: var(--gutter); bottom: var(--gutter);
+  width: min(560px, calc(100vw - 2 * var(--gutter)));
+  pointer-events: none; opacity: 0; transform: translateY(6px);
+  transition: opacity 0.5s var(--ease), transform 0.6s var(--ease);
+}
+.is-playing .panel { opacity: 1; transform: none; }
+.panel a { pointer-events: auto; }
+.p-name { margin: 0; font-size: 20px; line-height: 1.2; font-weight: 500; letter-spacing: -0.015em; }
+.p-asof { margin: 4px 0 0; font-size: 13px; color: var(--on-dark-muted); }
+.p-line {
+  margin: 16px 0 0; font-size: 16px; line-height: 1.45; min-height: 2.9em; max-width: 44ch;
+  text-wrap: pretty; transition: opacity 0.25s;
+}
+.p-line.is-swap { opacity: 0; }
+.p-sources { margin: 8px 0 0; font-size: 12px; color: var(--on-dark-muted); display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.p-sources:empty { display: none; }
+.p-sources a {
+  color: var(--on-dark-muted); text-decoration: underline; text-decoration-thickness: 1px;
+  text-underline-offset: 3px; text-decoration-color: rgba(239, 238, 233, 0.25);
+}
+.p-sources a:hover { color: var(--on-dark); }
+
+/* Map hint + hover tip */
+.hint {
+  position: fixed; z-index: 4; left: var(--gutter); bottom: var(--gutter); margin: 0;
+  font-size: 13px; color: #7c7b75; pointer-events: none;
+  opacity: 0; transition: opacity 0.6s var(--ease);
+}
+.hint.is-on { opacity: 1; transition-delay: 0.4s; }
+.tip {
+  position: fixed; z-index: 4; left: 0; top: 0; pointer-events: none; white-space: nowrap;
+  font-size: 12px; line-height: 1; color: var(--on-dark);
+  opacity: 0; transition: opacity 0.18s;
+}
+.tip.is-on { opacity: 1; }
+.tip::before {
+  content: ""; position: absolute; left: 0; top: 0; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px;
+  border-radius: 50%; background: var(--on-dark);
+}
+.tip span { position: absolute; left: 10px; top: -6px; }
+.tip small { color: var(--on-dark-muted); font-size: 12px; margin-left: 6px; }
+
+@media (max-width: 560px) {
+  :root { --gutter: 16px; }
+  .card { padding: 24px; }
+  .intro { font-size: 16px; }
+  .p-name { font-size: 18px; }
+  .p-line { font-size: 15px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card, .card.is-min, .chip, .panel, #stage { transition-property: opacity, visibility; transform: translate(-50%, -50%); }
+  .chip, .panel, #stage { transform: none; }
+}
+.nw { white-space: nowrap; }

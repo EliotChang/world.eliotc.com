@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-manifest="https://d3h06xb32ojj4n.cloudfront.net/eliotc/atlas/manifest.json">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0f0f0e">
+<title>Eliot Chang</title>
+<meta name="description" content="Designer working on interactive media that’s generated in real time.">
+<meta property="og:title" content="Eliot Chang">
+<meta property="og:description" content="Designer working on interactive media that’s generated in real time.">
+<meta property="og:url" content="https://eliotc.com">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="data/land.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="atlas.css">
+</head>
+<body>
+<canvas id="stage" aria-label="World map. Choose a place to play a short film about it." role="img"></canvas>
+<div class="videos" aria-hidden="true">
+  <video playsinline muted loop preload="none"></video>
+  <video playsinline muted loop preload="none"></video>
+</div>
+<div class="scrim" aria-hidden="true"></div>
+
+<section class="card" id="card" aria-label="About eliot" tabindex="-1">
+  <p class="intro">Hi! I’m eliot, a designer working on <span class="nw">real-time</span> generated interactive media.</p>
+  <p class="now">Currently working on: <a href="https://sonder.gg">sonder.gg</a></p>
+  <div class="prev">
+    <span class="label">Previously</span>
+    <ul>
+      <li>a16z speedrun</li>
+      <li>Fortnite</li>
+      <li>Kleiner Perkins Design Fellowship</li>
+    </ul>
+  </div>
+  <nav>
+    <a href="https://docs.google.com/document/d/1Gn257Oo2Tdrnf8u51dKeGFQw_ZbxBJLO6IESc3gNT_4/edit">Resume</a>
+    <a href="https://www.linkedin.com/in/eliot-chang/">LinkedIn</a>
+    <a href="mailto:me@eliotc.com">Email</a>
+  </nav>
+</section>
+
+<button class="chip" id="chip" type="button" aria-controls="card" aria-expanded="true">eliot</button>
+
+<div class="controls" id="controls">
+  <button class="ctl" id="mute" type="button" aria-pressed="false">Unmute</button>
+  <button class="ctl" id="close" type="button">Close</button>
+</div>
+
+<div class="panel" id="panel" aria-live="polite">
+  <h2 class="p-name" id="p-name"></h2>
+  <p class="p-asof" id="p-asof"></p>
+  <p class="p-line" id="p-line"></p>
+  <p class="p-sources" id="p-sources"></p>
+</div>
+
+<p class="hint" id="hint">Choose any place on the map.</p>
+<div class="tip" id="tip" aria-hidden="true"></div>
+
+<script src="atlas.js" defer></script>
+</body>
+</html>
