@@ -228,6 +228,13 @@ button { font: inherit; letter-spacing: inherit; }
   .p-name { font-size: 18px; }
   .p-line { font-size: 15px; }
 }
+/* Small phones (iPhone SE/mini, 320-379px): the compact note can't fit beside the film
+   controls, so it keeps just "eliot" (a tap still opens it), and the Previously list tightens. */
+@media (max-width: 379px) {
+  .note.is-compact .n-now { display: none; }
+  .card { padding: 20px; }
+  .card .credits { grid-template-columns: max-content minmax(0, 1fr); column-gap: 20px; }
+}
 @media (prefers-reduced-motion: reduce) {
   .glint.is-on { animation: none; }
   .card, .card.is-min, .panel, #stage { transition-property: opacity, visibility; transform: translate(-50%, -50%); }
