@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-manifest="https://d3h06xb32ojj4n.cloudfront.net/eliotc/atlas/manifest.json">
+<html lang="en" data-manifest="https://d3h06xb32ojj4n.cloudfront.net/eliotc/atlas/manifest.json" data-manifest-v2="https://d3h06xb32ojj4n.cloudfront.net/eliotc/atlas/manifest-v2.json">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -20,6 +20,7 @@
 <body>
 <canvas id="stage" aria-label="World map. Choose a place to play a short film about it." role="img"></canvas>
 <div class="videos" aria-hidden="true">
+  <video playsinline muted loop preload="none"></video>
   <video playsinline muted loop preload="none"></video>
   <video playsinline muted loop preload="none"></video>
 </div>
@@ -43,10 +44,15 @@
   </nav>
 </section>
 
-<button class="chip" id="chip" type="button" aria-controls="card" aria-expanded="true">eliot</button>
+<aside class="note" id="note" aria-label="About eliot">
+  <button class="n-open" id="note-open" type="button" aria-controls="card" aria-expanded="false"><span class="n-full">eliot, designer working on <span class="nw">real-time</span> generated interactive media</span><span class="n-short">eliot</span></button>
+  <p class="n-now">currently <a href="https://sonder.gg">sonder.gg</a></p>
+  <p class="n-links"><a href="https://docs.google.com/document/d/1Gn257Oo2Tdrnf8u51dKeGFQw_ZbxBJLO6IESc3gNT_4/edit">Resume</a><span aria-hidden="true"> · </span><a href="https://www.linkedin.com/in/eliot-chang/">LinkedIn</a><span aria-hidden="true"> · </span><a href="mailto:me@eliotc.com">Email</a></p>
+</aside>
+<div class="fold" id="fold" aria-hidden="true"></div>
 
 <div class="controls" id="controls">
-  <button class="ctl" id="mute" type="button" aria-pressed="false">Unmute</button>
+  <button class="ctl" id="mute" type="button" aria-pressed="false">Sound on</button>
   <button class="ctl" id="close" type="button">Close</button>
 </div>
 
@@ -55,8 +61,16 @@
   <p class="p-asof" id="p-asof"></p>
   <p class="p-line" id="p-line"></p>
   <p class="p-sources" id="p-sources"></p>
+  <p class="p-music" id="p-music"></p>
+  <div class="p-nav" id="p-nav">
+    <button class="nav" id="prev" type="button" aria-keyshortcuts="ArrowLeft"><span aria-hidden="true">←</span> <span class="nav-name"></span></button>
+    <button class="nav" id="next" type="button" aria-keyshortcuts="ArrowRight"><span class="nav-name"></span> <span aria-hidden="true">→</span></button>
+    <button class="nav call" id="call" type="button" hidden><span aria-hidden="true">→</span> <span class="nav-name"></span></button>
+    <button class="nav thread" id="thread" type="button" hidden></button>
+  </div>
 </div>
 
+<button class="glint" id="glint" type="button" aria-label="A feather" tabindex="-1"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M20.5 3.5c-6.2.4-11 4.6-12.6 11.3l-.6 2.6 2.4-.9c5.8-2.2 9.6-6.9 10.8-13z" fill="currentColor" opacity=".9"/><path d="M19 5 5.2 18.8M4 20l1.2-1.2" stroke="currentColor" stroke-width="1" stroke-linecap="round" fill="none"/></svg></button>
 <p class="hint" id="hint">Choose any place on the map.</p>
 <div class="tip" id="tip" aria-hidden="true"></div>
 
