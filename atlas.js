@@ -24,6 +24,7 @@
     pin: "#efeee9",
   };
   const FINALE_ID = "__finale";
+  const WIPE_MS = 520;
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
   const params = new URLSearchParams(location.search);
@@ -459,10 +460,13 @@ void main() {
   // base: the map, or the film (with a new film blooming open inside the reveal circle)
   vec3 base = uHasPrev > 0.5 ? texture2D(uPrev, frameUV(mp, uPrevF, uPrevAsp)).rgb : mapC;
   if (uHasNext > 0.5) {
-    vec2 rd = p - uReveal.xy;
+    vec2 rd = p - uReveal.xy; vec2 rn = rd / max(length(rd), 1.0);
     float rs = length(rd) - (uReveal.z + wob(rd, uTime * 1.3, 6.0 * uDpr * uMotion));
     float rm = 1.0 - smoothstep(-1.5 * f, 1.5 * f, rs);
-    vec3 nx = texture2D(uNext, frameUV(mp, uNextF, uNextAsp)).rgb;
+    float wk = rs / (22.0 * uDpr);
+    vec2 wd = rn * exp(-wk * wk) * sin(wk * 2.4) * 10.0 * uDpr * uMotion * step(1.0, uReveal.z);
+    vec3 nx = texture2D(uNext, frameUV(mp + wd, uNextF, uNextAsp)).rgb;
+    if (uHasPrev > 0.5) base = texture2D(uPrev, frameUV(mp + wd, uPrevF, uPrevAsp)).rgb;
     base = mix(base, nx, rm) + line(rs, 3.0 * uDpr) * step(1.0, uReveal.z) * 0.06;
   }
   vec3 col = base;
@@ -562,18 +566,23 @@ void main() {
       return;
     }
     slot.place = place; slot.hasContent = false; slot.tainted = false; slot.failed = false; slot.lastT = -1;
+    slot.videoReady = false; slot.posterReady = false; slot.loadT = performance.now();
+    const gen = slot.gen = (slot.gen || 0) + 1;
     const el = slot.el;
+    // never let the last film this slot played show through
+    if (gl) gl.bindTexture(gl.TEXTURE_2D, slot.tex), gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, 1, 1, 0, gl.RGB, gl.UNSIGNED_BYTE, new Uint8Array([15, 15, 14]));
     el.loop = place.id !== FINALE_ID;
     el.crossOrigin = "anonymous";
     el.muted = S.muted;
     el.preload = "auto";
     el.src = assetURL(place.video);
+    watchFirstFrame(slot, gen);
     if (autoplay) playEl(el);
     const img = posterFor(place);
     const usePoster = () => {
-      if (slot.place !== place || slot.hasContent || !img.naturalWidth) return;
+      if (slot.gen !== gen || slot.videoReady || !img.naturalWidth) return;
       if (gl) { try { upload(slot.tex, img); } catch (_) { return; } }
-      slot.asp = img.naturalWidth / img.naturalHeight; slot.hasContent = true;
+      slot.asp = img.naturalWidth / img.naturalHeight; slot.posterReady = true;
     };
     if (img.complete) usePoster(); else img.addEventListener("load", usePoster, { once: true });
   }
@@ -591,6 +600,13 @@ void main() {
   function syncSound() {
     els.mute.textContent = S.muted ? "Sound on" : "Sound off";
     els.mute.setAttribute("aria-pressed", String(!S.muted));
+  }
+  // Mark a slot ready when the element presents its first real frame for this load.
+  function watchFirstFrame(slot, gen) {
+    const el = slot.el;
+    const ok = () => { if (slot.gen === gen && slot.el === el) slot.videoReady = true; };
+    if (el.requestVideoFrameCallback) el.requestVideoFrameCallback(ok);
+    else el.addEventListener("loadeddata", ok, { once: true });
   }
   function clearVideo(el) {
     el.pause();
@@ -638,7 +654,7 @@ void main() {
     el.addEventListener("error", () => {
       const slot = slotOf(el);
       if (!slot || !slot.place) return;
-      slot.failed = true;
+      slot.failed = true; slot.loadT = -1e9;
       if (slot === S.next || slot === S.cur) els.line.textContent = "This film is not available right now.";
     });
   }
@@ -723,10 +739,14 @@ void main() {
       S.ripple = reduced() ? null : { x, y, t0: performance.now() };
       return;
     }
+    if (S.next && S.reveal && S.reveal.t0) { // a wipe is mid-way: finish it now, never overlap two
+      if (S.cur && S.cur !== S.next) unloadSlot(S.cur);
+      S.cur = S.next; S.next = null; S.reveal = null;
+    }
     const fromPlace = (S.next || S.cur || {}).place;
     document.body.classList.toggle("is-finale", place.id === FINALE_ID);
     S.pin = place; S.hot = null; S.mapDirty = true;
-    S.ripple = reduced() || opt.fromLens ? null : { x, y, t0: performance.now() };
+    S.ripple = reduced() || opt.fromLens || S.cur || S.next ? null : { x, y, t0: performance.now() };
     const slot = S.next || (S.cur ? otherSlot(S.cur) : slots[0]);
     const sc = S.surf.cur;
     let r0 = 0, f0 = null;
@@ -741,24 +761,25 @@ void main() {
       const el = slot.el; slot.el = preview.el; preview.el = el;
       const t = slot.tex; slot.tex = vidTex[sc.vt]; vidTex[sc.vt] = t;
       clearVideo(preview.el); preview.place = null; clearTimeout(preview.timer);
-      Object.assign(slot, { place, hasContent: true, tainted: false, failed: false, lastT: -1, asp: slot.el.videoWidth / slot.el.videoHeight || 16 / 9 });
+      Object.assign(slot, { place, hasContent: true, videoReady: true, posterReady: false, tainted: false, failed: false, lastT: -1, loadT: performance.now(), gen: (slot.gen || 0) + 1, asp: slot.el.videoWidth / slot.el.videoHeight || 16 / 9 });
       playEl(slot.el);
     } else loadSlot(slot, place, true);
     S.next = slot;
     S.surf = { cur: null, old: null, t0: 0 };
     S.hole.r = 0; S.hole.holdUntil = performance.now() + (reduced() ? 0 : 1300);
     // Feather relay: the next stop arrives from the side the last one left by, sliding in.
-    const fd = !f0 && featherDir(fromPlace, place);
+    const fd = !f0 && (featherDir(fromPlace, place) || opt.side);
     let slide = null;
     if (fd) {
       x = S.W * (0.5 + 0.5 * fd.x); y = S.H * (0.5 + 0.5 * fd.y);
       const full = coverFrame(16 / 9);
-      f0 = { x: full.x + fd.x * S.W * 0.12, y: full.y + fd.y * S.H * 0.12, h: full.h };
-      slide = { x: -fd.x * S.W * 0.06, y: -fd.y * S.H * 0.06 };
+      f0 = { x: full.x + fd.x * S.W * 0.08, y: full.y + fd.y * S.H * 0.08, h: full.h };
+      slide = { x: -fd.x * S.W * 0.04, y: -fd.y * S.H * 0.04 };
       S.ripple = null;
     }
     S.reveal = { x, y, t0: 0, r0, f0, slide, rMax: Math.hypot(Math.max(x, S.W - x), Math.max(y, S.H - y)) + 80 };
-    showPanel(place);
+    // the caption changes with the picture, not before it
+    if (!S.cur) showPanel(place); else S.reveal.panel = place;
     document.body.classList.add("is-playing");
     updateHint();
   }
@@ -787,11 +808,11 @@ void main() {
   function flip(dir) {
     const from = (S.next || S.cur || {}).place;
     if (!from || S.closing || from.id === FINALE_ID) return;
-    go(neighbor(from, dir));
+    go(neighbor(from, dir), { x: dir, y: 0 });
   }
   // Jump to a place from the keyboard or the caption: pan the (hidden) map if it is off-screen,
   // and open the film from where the place sits on the map.
-  function go(place) {
+  function go(place, side) {
     if (!place) return;
     let q = screenOf(place, S.W / 2);
     if (q.x < S.W * 0.08 || q.x > S.W * 0.92 || q.y < S.H * 0.08 || q.y > S.H * 0.92) {
@@ -800,7 +821,7 @@ void main() {
       setView(target, false);
       q = screenOf(place, S.W / 2);
     }
-    select(place, clamp(q.x, S.W * 0.06, S.W * 0.94), clamp(q.y, S.H * 0.1, S.H * 0.9));
+    select(place, clamp(q.x, S.W * 0.06, S.W * 0.94), clamp(q.y, S.H * 0.1, S.H * 0.9), { side: playing() ? side : null });
   }
 
   function closeVideo() {
@@ -852,10 +873,22 @@ void main() {
     const local = fmtLocal(place.localTime);
     els.asof.textContent = [S.moment || fmtDate(place.asOf), local && `${local} local`].filter(Boolean).join(" · ");
     setLine("");
-    els.sources.replaceChildren(...(place.sources || []).slice(0, 4).map((s) => {
+    const seen = new Set(), perOutlet = new Map(), list = [];
+    for (const s of Array.isArray(place.sources) ? place.sources : []) {
+      if (!s || !s.url) continue;
+      let outlet = s.outlet;
+      try { outlet = outlet || new URL(s.url).hostname.replace(/^www\./, ""); } catch (_) { outlet = outlet || "Source"; }
+      const key = `${outlet.toLowerCase()}|${s.url.replace(/[#?].*$/, "").replace(/\/$/, "")}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const n = (perOutlet.get(outlet) || 0) + 1; perOutlet.set(outlet, n);
+      list.push({ s, label: n > 1 ? `${outlet} (${n})` : outlet });
+      if (list.length === 4) break;
+    }
+    els.sources.replaceChildren(...list.map(({ s, label }) => {
       const a = document.createElement("a");
       a.href = s.url; a.target = "_blank"; a.rel = "noopener";
-      try { a.textContent = s.outlet || new URL(s.url).hostname.replace(/^www\./, ""); } catch (_) { a.textContent = s.outlet || "Source"; }
+      a.textContent = label;
       if (s.title) a.title = s.title;
       return a;
     }));
@@ -887,10 +920,13 @@ void main() {
     setTimeout(() => { if (lineText === text) { els.line.textContent = text; els.line.classList.remove("is-swap"); } }, 180);
   }
   function updateCaption() {
-    const slot = S.next || S.cur;
+    const slot = S.next && S.reveal && S.reveal.t0 ? S.next : S.cur || S.next;
     if (!slot || !slot.place || slot.failed) return;
     const t = slot.el.currentTime;
-    const c = (slot.place.captions || []).find((c) => t >= c.start && t < c.end);
+    const caps = slot.place.captions || [];
+    let c = caps.find((c) => t >= c.start && t < c.end);
+    // between captions, keep the last line up (full strength) until the next one starts
+    if (!c) for (const x of caps) if (x.start <= t) c = x;
     setLine(c ? c.text : "");
   }
 
@@ -1123,7 +1159,7 @@ void main() {
     for (const slot of [S.cur, S.next, S.closing && S.closing.slot]) {
       if (!slot || !slot.place || slot.tainted) continue;
       const el = slot.el;
-      if (el.readyState >= 2 && el.videoWidth) {
+      if (slot.videoReady && el.readyState >= 2 && el.videoWidth) {
         if (gl) {
           if (el.currentTime !== slot.lastT) {
             try { upload(slot.tex, el); } catch (_) { slot.tainted = true; continue; }
@@ -1133,11 +1169,15 @@ void main() {
         slot.asp = el.videoWidth / el.videoHeight; slot.hasContent = true;
       }
     }
-    if (S.next && S.next.hasContent && S.reveal && !S.reveal.t0) S.reveal.t0 = now;
+    if (S.next && !S.next.hasContent && S.next.posterReady && now - S.next.loadT > 900) S.next.hasContent = true;
+    if (S.next && S.next.hasContent && S.reveal && !S.reveal.t0) {
+      S.reveal.t0 = now;
+      if (S.reveal.panel) { showPanel(S.reveal.panel); S.reveal.panel = null; }
+    }
     let revealR = 0, revealE = 0;
     if (S.reveal && S.reveal.t0) {
-      const t = motion ? clamp((now - S.reveal.t0) / 1150, 0, 1) : 1;
-      revealE = easeOut(t);
+      const t = motion ? clamp((now - S.reveal.t0) / WIPE_MS, 0, 1) : 1;
+      revealE = t < 1 ? 1 - Math.pow(1 - t, 2.2) : 1;
       revealR = S.reveal.r0 + revealE * (S.reveal.rMax - S.reveal.r0);
       if (t >= 1) {
         if (S.cur && S.cur !== S.next) unloadSlot(S.cur);
