@@ -70,8 +70,9 @@ button { font: inherit; letter-spacing: inherit; }
 }
 .prev { margin-top: 24px; font-size: 15px; line-height: 1.6; }
 .label { display: block; font-size: 13px; color: var(--ink-muted); margin-bottom: 4px; }
-.card ul { list-style: none; margin: 0; padding: 0; }
-.card li::before { content: "–"; color: #b3b2ad; margin-right: 10px; }
+.card .credits { display: grid; grid-template-columns: max-content max-content; column-gap: 32px; row-gap: 2px; margin: 0; }
+.card .credits dt { color: inherit; }
+.card .credits dd { margin: 0; color: #6b6a65; }
 .card nav { display: flex; gap: 24px; margin-top: 24px; font-size: 15px; }
 .card a {
   color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px;
